@@ -1,0 +1,11 @@
+<v-row>
+  <v-col>
+    <v-row class="d-flex justify-center">
+      <v-col cols="12" sm="6" md="4" v-for="sponsor in sponsorList" :key="sponsor.name">
+        <a :href="sponsor.url" target="_blank">
+          <v-img :src="sponsor.imgSrc" min="100px"></v-img>
+        </a>
+      </v-col>
+    </v-row>
+  </v-col>
+</v-row>
