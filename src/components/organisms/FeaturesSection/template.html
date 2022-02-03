@@ -1,0 +1,48 @@
+<v-row class="d-flex justify-center grey lighten-4 py-3">
+  <v-col cols="12" sm="10">
+    <v-row>
+      <v-col cols="12">
+        <h2 class="text-center">Features</h2>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12">
+        <p>
+          OpenPacking Dataset is a new large-scale multi modal dataset of packing
+          process.
+          OpenPack is an open access logistics-dataset for human activity recognition,
+          which contains human movement and package information from ten subjects. The
+          package information includes the size and number of items included in each
+          packaging task. While the human movement information is subdivided into
+          three types of data, acceleration, physiological, and depth-sensing.
+        </p>
+      </v-col>
+      <v-col cols="12">
+        <p>
+          In the "Humanware laboratory" at IST Osaka University, with the supervision
+          of industrial engineers, an experiment to mimic logistic center labor was
+          designed. Workers with previous packaging experience performed a set of
+          packaging tasks according to an instruction manual from a real-life logistic
+          center, during the experiment subjects were recorded using Lidar, Kinect,
+          and Realsense depth sensors performing packing operations while also wearing
+          four IMU devices and 2 Empatica E4 wearable sensors. Each subject was tasked
+          with performing 20 packing jobs on 5 separate sessions for a total of 100
+          jobs. Approximately 50 hours of packaging operations have been labeled into
+          8 global operation classes and 17 sub-classes for this dataset.
+        </p>
+      </v-col>
+    </v-row>
+    <v-row class="d-flex justify-center">
+      <v-col cols="12" md="4" sm="6" v-for="feat in featureList" :key="feat.title">
+        <v-card outlined class="feature-card">
+            <v-col cols="12">
+              <v-card-text clas="">
+                <p class="text-h5 font-weight-bold text--primary text-center" v-text="feat.title"></p>
+                <div class="text--primary text-center" v-text="feat.body"></div>
+              </v-card-text>  
+            </v-col>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-col>
+</v-row>

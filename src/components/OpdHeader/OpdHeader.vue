@@ -5,7 +5,7 @@
     height="64"
     fixed
 >
-    <v-toolbar-title>LOGI Challenge Dataset</v-toolbar-title>
+    <v-toolbar-title>OpenPacking Dataset</v-toolbar-title>
     <v-spacer></v-spacer>
     <router-link to="/home" class="text-decoration-none">
         <v-btn elevation="0" >Home</v-btn>
