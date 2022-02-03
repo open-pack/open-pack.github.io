@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'Publications',
+  name: 'PublicationsSection',
   data: () => ({
       paperList: [
           {
@@ -49,4 +49,4 @@ export default {
 }
 </script>
 
-<style src="./Publications.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

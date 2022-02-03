@@ -18,8 +18,8 @@
 
 <script>
 export default {
-    name: 'Header',
+    name: 'OpdHeader',
 }
 </script>
 
-<style src="./Header.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

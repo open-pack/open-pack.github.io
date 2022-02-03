@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: 'Features',
+  name: 'FeaturesSection',
   data: () => ({
     featureList: [
         {
@@ -63,4 +63,4 @@ export default {
 }
 </script>
 
-<style src="./Features.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

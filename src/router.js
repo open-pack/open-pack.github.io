@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Layout from '@/components/Layout/Layout.vue'
-import Home from '@/pages/Home/Home.vue'
-import Download from '@/pages/Download/Download.vue'
-import Error from '@/pages/Error/Error.vue'
+import BaseLayout from '@/components/BaseLayout/BaseLayout.vue'
+import HomePage from '@/pages/HomePage/HomePage.vue'
+import DownloadPage from '@/pages/DownloadPage/DownloadPage.vue'
+import ErrorPage from '@/pages/ErrorPage/ErrorPage.vue'
 
 Vue.use(Router)
 
@@ -16,24 +16,24 @@ export default new Router({
         path: '/',
         redirect: 'home',
         name: 'Layout',
-        component: Layout,
+        component: BaseLayout,
         children: [
             {
                 path: 'home',
                 name: 'Home',
-                component: Home,
+                component: HomePage,
             },
             {
               path: 'download',
               name: 'Download',
-              component: Download,
+              component: DownloadPage,
           },
         ],
     },
     {
         path: '*',
         name: 'Error',
-        component: Error
+        component: ErrorPage,
     },
   ]
 })

@@ -13,13 +13,8 @@
 </template>
 
 <script>
-import Teaser from '../../components/Teaser/Teaser.vue';
 
 export default {
-  name: 'Download',
-
-  components: {
-    Teaser, 
-  },
+  name: 'DownloadPage',
 };
 </script>

@@ -17,8 +17,8 @@
 
 <script>
 export default {
-  name: 'Terms',
+  name: 'TermsSection',
 }
 </script>
 
-<style src="./Terms.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

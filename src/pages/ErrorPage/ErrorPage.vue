@@ -33,7 +33,7 @@ But we're here to bring you back to safety
 <script>
 import config from '@/config'
 export default {
-  name: 'Error',
+  name: 'ErrorPage',
   data(){
     return {
       config
@@ -42,4 +42,4 @@ export default {
 }
 </script>
 
-<style src="./Error.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

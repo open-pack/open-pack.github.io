@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'News',
+  name: 'NewsSection',
   data: () => ({
       articles: [
           {
@@ -41,4 +41,4 @@ export default {
 }
 </script>
 
-<style src="./News.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

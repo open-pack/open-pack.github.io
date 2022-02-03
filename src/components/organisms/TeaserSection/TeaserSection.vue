@@ -8,8 +8,8 @@
 
 <script>
 export default {
-  name: 'Teaser',
+  name: 'TeaserSection',
 }
 </script>
 
-<style src="./Teaser.scss" lang="scss"></style>
+<style src="./style.scss" lang="scss"></style>

@@ -1,6 +1,6 @@
 <template>
     <v-app class="pt-6">
-        <Header />
+        <OpdHeader />
         <v-sheet
             color="white"
             elevation="1"
@@ -10,17 +10,17 @@
         <v-main class="content">
             <router-view />
         </v-main>
-        <Footer />
+        <OpdFooter />
     </v-app>
 </template>
 
 <script>
-    import Header from '@/components/Header/Header'
-    import Footer from '@/components/Footer/Footer'
+    import OpdHeader from '@/components/OpdHeader/OpdHeader'
+    import OpdFooter from '@/components/OpdFooter/OpdFooter'
     export default {
-        name: 'Layout',
-        components: {Footer, Header},
+        name: 'BaseLayout',
+        components: {OpdFooter, OpdHeader},
     }
 </script>
 
-<style src="./Layout.scss" lang="scss" />
+<style src="./style.scss" lang="scss" />

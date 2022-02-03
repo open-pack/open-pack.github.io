@@ -25,14 +25,14 @@
 
 <script>
 export default {
-  name: 'Footer',
+  name: 'OpdFooter',
   data: () => ({
     icons: [
-      {icon: 'mdi-github', link: 'https://github.com/k-shimari/scrapingdaikin'},
+      {icon: 'mdi-github', link: 'https://github.com/getty708/open-pack-dataset'},
       {icon: 'mdi-school', link: 'https://www.ist.osaka-u.ac.jp/english/'},
     ],
   }),
 }
 </script>
 
-<style src="./Footer.scss" lang="scss"/>
+<style src="./style.scss" lang="scss"/>
