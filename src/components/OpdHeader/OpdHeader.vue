@@ -10,9 +10,6 @@
     <router-link to="/home" class="text-decoration-none">
         <v-btn elevation="0" >Home</v-btn>
     </router-link>
-    <router-link to="/download" class="text-decoration-none">
-        <v-btn elevation="0" >Download</v-btn>
-    </router-link>
 </v-app-bar>
 </template>
 
