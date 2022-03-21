@@ -6,8 +6,8 @@ export default {
             header: "No.1",
             color: 'grey lighten-1',
             icon: 'mdi-information',
-            title: 'TBA Skilled Workers',
-            body: 'We recruited TBA workers who have a job experience of packing operation.',
+            title: '11 Skilled Workers',
+            body: 'We recruited 11 workers who have a job experience of packing operation.',
         },
         {
             header: "No.2",
