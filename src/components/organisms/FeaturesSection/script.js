@@ -7,7 +7,7 @@ export default {
             color: 'grey lighten-1',
             icon: 'mdi-information',
             title: '11 Skilled Workers',
-            body: 'We recruited 11 workers who have a job experience of packing operation.',
+            body: 'We recruited 16 workers and 11 of them have a job experience of packaging operation.',
         },
         {
             header: "No.2",
@@ -20,7 +20,7 @@ export default {
           header: "No.3",
           color: 'grey lighten-1',
           icon: 'mdi-information',
-          title: "Rich Side Information",
+          title: "Rich Meta Information",
           body: 'For each box, detailed information about the items packed is provided, including scanner time stamps.',
       },
     ],
