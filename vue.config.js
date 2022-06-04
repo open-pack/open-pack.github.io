@@ -2,7 +2,7 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: '/open-pack-dataset',
+  publicPath: '',
   outputDir: 'docs',
   filenameHashing: false,
   productionSourceMap: false,
