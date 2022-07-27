@@ -1,0 +1,30 @@
+@import 'variables';
+
+.nuxt-content {
+  h1 {
+    font-weight: 600;
+  }
+
+  h2 {
+    font-weight: 600;
+    margin-top: 2em;
+  }
+
+  h3 {
+    color: $op-dark-grey;
+    font-weight: 600;
+    margin-top: 1.5em;
+  }
+
+  h4 {
+    color: $op-dark-grey;
+    font-weight: 600;
+    margin-top: 1em;
+  }
+
+  h5 {
+    color: $op-dark-grey;
+    font-weight: 500;
+    margin-top: 1em;
+  }
+}
