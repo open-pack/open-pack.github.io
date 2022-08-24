@@ -34,6 +34,7 @@ export default {
       { hid: 'og:title', property: 'og:title', content: 'OpenPack Dataset' },
       { hid: 'og:description', property: 'og:description', content: "OpenPacking Dataset is a new large-scale multi modal dataset of packing process" },
       { hid: 'og:image', property: 'og:image', content: 'https://open-pack.github.io/img/logo_light.jpeg' },
+      { name: 'google-site-verification', content: 'yvsm8zg3mV2mitqHF6QQdSKpzgHYdhbFditCxarr4E4' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: "favicon.ico" }],
   },
