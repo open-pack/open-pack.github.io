@@ -6,7 +6,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
     base: `/`
   }
 } : {}
-// const ga4TrackingID = process.env.DEPLOY_ENV === 'FIREBASE' ? 'G-XYYJZSK305' : 'G-85VXJVY98Z';
+const ga4TrackingID = process.env.DEPLOY_ENV === 'FIREBASE' ? 'G-XXXXXXXXXX' : 'G-YZB3JBMQES';
 
 export default {
   ...routerBase,
@@ -73,10 +73,10 @@ export default {
     '@/modules/custom-generate.js',
     '@nuxtjs/style-resources',
     'nuxt-webfontloader',
-    // ['@nuxtjs/google-gtag', {
-    //   id: ga4TrackingID,
-    //   debug: false,
-    // }]
+    ['@nuxtjs/google-gtag', {
+      id: ga4TrackingID,
+      debug: false,
+    }]
   ],
 
   generate: {
