@@ -2,9 +2,39 @@
 @import '~vuetify/src/styles/styles.sass';
 
 // Colors //
+// Google Colors //
+$op-brown-wheel: (
+  'base': #8c7851,
+  // 'lighten-5': #e8f0fe,
+  // 'lighten-4': #e8f0fe,
+  // 'lighten-3': #e8f0fe,
+  'lighten-2': #f9f4ef,
+  'lighten-1': #eaddcf,
+  'darken-1': #716040,
+  // 'darken-2': #010202,
+  // 'darken-3': #185abc,
+  // 'darken-4': #174ea6,
+  // 'accent-1': #1a73e8,
+  // 'accent-2': #1967d2,
+  // 'accent-3': #185abc,
+  // 'accent-4': #174ea6,,,,,,,
+);
+
+$colors: map-deep-merge(
+  (
+    'op-brown': $op-brown-wheel,
+  ),
+  $colors
+);
+
 $op-dark-grey: '#eaddcf';
+$op-dark-brown: '#716040';
+$op-white: '#fffffe';
 
 // Typography //
 $font-size-root: 18px;
 $body-font-family: 'Noto Sans Japanese', 'Roboto';
 $heading-font-family: $body-font-family;
+
+// Timeline //
+$timeline-divider-width: 64px;

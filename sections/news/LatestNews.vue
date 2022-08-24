@@ -18,9 +18,9 @@
               sm="8"
               class="pa-0 text-sm-subtitle-2 text-caption"
             >
-              <a :href="item.link">
+              <nuxt-link :to="item.link" class="text-decoration-none">
                 {{ item.title }}
-              </a>
+              </nuxt-link>
             </v-col>
           </v-row>
         </v-list-item>
@@ -36,18 +36,18 @@ export default {
   data: () => ({
     items: [
       {
-        date: '2022.04.14',
-        title: 'News 1',
-        subtitle: '',
+        date: '2022.08.23',
+        title: 'Renewal of our homepage.',
+        subtitle: 'New website is now published!',
         color: 'secondary',
-        link: '#',
+        link: '',
       },
       {
-        date: '2022.05.14',
-        title: 'News 2',
+        date: '2022.07.08',
+        title: 'Dataset (v0.2.1) is released!',
         subtitle: '',
         color: 'secondary',
-        link: '#',
+        link: 'release/v0-2-1',
       },
     ],
   }),

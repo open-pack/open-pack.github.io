@@ -1,20 +1,20 @@
 <template>
   <header>
-    <v-app-bar dark dense height="64" fixed>
+    <v-app-bar color="primary" dense height="64" fixed>
       <v-img
         :src="brandLogo"
         alt="OpenPack"
         max-width="50"
-        height="24"
+        height="50"
         class="mr-3"
       ></v-img>
-      <v-toolbar-title :class="brandNameFontWeight"
+      <v-toolbar-title class="white--text" :class="brandNameFontWeight"
         >OpenPack Dataset</v-toolbar-title
       >
 
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
-        class="d-block d-sm-none"
+        class="d-block d-sm-none white--text"
         @click="drawer = true"
       ></v-app-bar-nav-icon>
 
@@ -24,20 +24,13 @@
           :key="index"
           :to="page.to"
           class="nt-app-bar-link"
-          ><v-btn elevation="0">{{ page.title }}</v-btn>
+          ><v-btn color="primary" elevation="0">{{ page.title }}</v-btn>
         </router-link>
       </div>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" fixed temporary right>
       <v-list-item class="d-flex py-3 px-0">
         <v-list-item>
-          <v-img
-            :src="brandLogo"
-            alt="OpenPack Dataset"
-            max-width="50"
-            height="24"
-          ></v-img>
-
           <v-list-item-title :class="brandNameFontWeight" class="text-h6 ml-4">
             OpenPack Dataset
           </v-list-item-title>
@@ -76,7 +69,7 @@ export default {
   },
   data: () => ({
     brandName: config.brand.nameShort,
-    brandLogo: '',
+    brandLogo: require('@/assets/img/brand/OpenPackDataset-icon-white.png'),
     drawer: false,
     group: null,
     pages: [
@@ -84,6 +77,16 @@ export default {
         icon: 'mdi-home',
         title: 'Home',
         to: '/',
+      },
+      {
+        icon: 'mdi-seal',
+        title: 'Challenge',
+        to: '/challenge2022',
+      },
+      {
+        icon: 'mdi-folder',
+        title: 'Gallery',
+        to: '/gallery',
       },
     ],
   }),
