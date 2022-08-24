@@ -44,7 +44,9 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '@/plugins/vue-youtube',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -93,7 +95,7 @@ export default {
       dark: false,
       themes: {
         light: {
-          primary: '#8c7851',
+          primary: '#716040',
           accent: '#f25042',
           secondary: '#eaddcf',
           info: colors.teal.lighten1,
