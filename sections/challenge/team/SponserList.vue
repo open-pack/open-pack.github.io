@@ -9,26 +9,30 @@
       <v-col
         v-for="(item, index) in items"
         :key="index"
-        cols="12"
-        md="5"
+        cols="6"
+        md="4"
         class="d-flex justify-center"
       >
-        <v-sheet
-          elevation="1"
-          width="100%"
-          rounded="lg"
-          class="pa-2"
-          :class="item.bgColor"
+        <a
+          :href="item.link"
+          target="_blank"
+          class="text-decoration-none d-flex align-stretch"
         >
-          <a :href="item.link" target="_blank" class="text-decoration-none">
+          <v-sheet
+            elevation="1"
+            width="100%"
+            rounded="lg"
+            class="pa-2 d-flex align-stretch"
+            :class="item.bgColor"
+          >
             <template v-if="item.imgSrc">
-              <v-img :src="item.imgSrc" :alt="item.alt"> </v-img>
+              <img :src="item.imgSrc" :alt="item.alt" width="100%" />
             </template>
             <template v-else>
               <div>{{ item.alt }}</div>
             </template>
-          </a>
-        </v-sheet>
+          </v-sheet>
+        </a>
       </v-col>
     </v-row>
   </div>
@@ -41,9 +45,9 @@ export default {
     items: [
       {
         alt: 'Sponsor.1 (TBA)',
-        imgSrc: null,
+        imgSrc: require('@/assets/img/sponsors/Toshiba_Logo_Red_RGB.svg'),
         link: null,
-        bgColor: 'op-brown lighten-2',
+        bgColor: 'white',
       },
       {
         alt: 'Cynav: What is Hierarchical Bio-Navigation?',
