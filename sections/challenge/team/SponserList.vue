@@ -9,7 +9,7 @@
       <v-col
         v-for="(item, index) in items"
         :key="index"
-        cols="6"
+        cols="12"
         md="4"
         class="d-flex justify-center"
       >
@@ -20,9 +20,9 @@
         >
           <v-sheet
             elevation="1"
-            width="100%"
             rounded="lg"
             class="pa-2 d-flex align-stretch"
+            width="100%"
             :class="item.bgColor"
           >
             <template v-if="item.imgSrc">
@@ -46,7 +46,7 @@ export default {
       {
         alt: 'Sponsor.1 (TBA)',
         imgSrc: require('@/assets/img/sponsors/Toshiba_Logo_Red_RGB.svg'),
-        link: null,
+        link: 'https://www.global.toshiba/ww/top.html',
         bgColor: 'white',
       },
       {

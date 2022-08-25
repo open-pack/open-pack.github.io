@@ -32,8 +32,8 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://open-pack.github.io' },
       { hid: 'og:title', property: 'og:title', content: 'OpenPack Dataset' },
-      { hid: 'og:description', property: 'og:description', content: "OpenPacking Dataset is a new large-scale multi modal dataset of packing process" },
-      { hid: 'og:image', property: 'og:image', content: 'https://open-pack.github.io/img/logo_light.jpeg' },
+      { hid: 'og:description', property: 'og:description', content: "The OpenPacking Dataset is a new large-scale multimodal dataset for recognizing human activity in packing work." },
+      { hid: 'og:image', property: 'og:image', content: 'https://open-pack.github.io/img/OpenPack_icon_with_title.png' },
       { name: 'google-site-verification', content: 'yvsm8zg3mV2mitqHF6QQdSKpzgHYdhbFditCxarr4E4' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: "favicon.ico" }],
@@ -71,6 +71,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/content',
+    '@nuxtjs/sitemap',
     '@/modules/custom-generate.js',
     '@nuxtjs/style-resources',
     'nuxt-webfontloader',
@@ -110,6 +111,15 @@ export default {
       }
     }
   },
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://open-pack.github.io',
+    exclude: [
+      '/404',
+    ]
+  },
+
   styleResources: {
     scss: ['~/assets/scss/main.scss'],
   },

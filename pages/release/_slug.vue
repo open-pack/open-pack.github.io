@@ -18,7 +18,7 @@ export default {
   },
   head() {
     return {
-      title: this.page.title,
+      title: 'Release Note ' + this.page.title,
       meta: [
         {
           hid: 'description',
@@ -26,7 +26,11 @@ export default {
           content: this.page.description,
         },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'og:title', property: 'og:title', content: this.page.title },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Release Note ' + this.page.title,
+        },
         {
           hid: 'og:description',
           property: 'og:description',

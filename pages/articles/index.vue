@@ -35,7 +35,7 @@ export default {
     return { list }
   },
   head: {
-    title: 'Projects',
+    title: 'Articles',
   },
 }
 </script>
