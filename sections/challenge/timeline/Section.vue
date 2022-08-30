@@ -53,7 +53,7 @@ export default {
         datetime: '2022-10-01',
         title: 'Registration Open',
         caption: 'Google form and competition page on codalab will be public.',
-        color: 'op-brown lighten-1',
+        color: 'op-brown darken-1',
       },
       {
         datetime: '2022-10-15',
@@ -69,23 +69,24 @@ export default {
         color: 'op-brown lighten-1',
       },
       {
-        datetime: '2023-01-20 (Subject to change)',
+        datetime: '2023-01-15',
         title: 'Final Submission Deadline',
         caption: 'You must submit your best results until the end of this day.',
-        color: 'op-brown',
+        color: 'op-brown lighten-1',
       },
       {
-        datetime: '2023-TBA-TBA',
+        datetime: '2023-01-31',
         title: 'Report Submission Deadline',
-        caption: 'Top (TBA) winners must submit a report of your solution.',
+        caption:
+          'Top 3 winners must submit a report of your solution to get the prize! Deadlines are subject to change.',
         color: 'op-brown lighten-1',
       },
       {
         datetime: '2023-03-TBA',
         title: 'Workshop Day @Percom2023',
         caption:
-          'Award Ceremony will be held. Top TBA winners are requested to participate online or offline.',
-        color: 'op-brown',
+          'Award Ceremony will be held. Top 3 winners are requested to participate offline.',
+        color: 'op-brown lighten-1',
       },
     ],
   }),

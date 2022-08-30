@@ -29,9 +29,9 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Start</div>
-              <p class="text-h5">2022-10-15</p>
+              <p class="text-h5 font-weight-bold">2022-10-15</p>
               <div>End</div>
-              <p class="text-h5">2023-01-TBA</p>
+              <p class="text-h5 font-weight-bold">2023-01-15</p>
             </v-card-text>
           </v-card>
         </v-col>
@@ -39,7 +39,9 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Task</div>
-              <p class="text-h5">Recognize 10 Work Operations</p>
+              <p class="text-h5 font-weight-bold">
+                Recognize 10 Work Operations
+              </p>
               (Temporal Semantic Segmentation)
             </v-card-text>
           </v-card>
@@ -48,7 +50,12 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Prize</div>
-              <p class="text-h5">TBA</p>
+              <div class="text-h5 font-weight-bold">
+                <ul>
+                  <li>Cash Prize</li>
+                  <li>Travel Fee Support to attend Percom2023</li>
+                </ul>
+              </div>
             </v-card-text>
           </v-card>
         </v-col>

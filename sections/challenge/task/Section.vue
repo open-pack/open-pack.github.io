@@ -108,6 +108,27 @@
           </v-col>
           <v-col cols="12"> TBA </v-col>
         </v-row>
+        <v-row>
+          <v-col cols="12">
+            <h3>Prize for Best 3 Teams</h3>
+            <ul>
+              <li>
+                Cash prize at the award ceremony @
+                <a href="https://bio-navigation.jp/bird2023/" target="_blank"
+                  >BiRD2023</a
+                >
+              </li>
+              <li>
+                Travel fee support (1 member from each team, up to
+                500,000JPY/person)
+              </li>
+            </ul>
+            <p class="mt-3 op-brown--text font-weight-bold">
+              To get these prize, each winner team should submit a technical
+              report by 1/31.
+            </p>
+          </v-col>
+        </v-row>
       </v-container>
     </section>
   </section>
