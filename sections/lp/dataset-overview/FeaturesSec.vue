@@ -165,6 +165,13 @@
             </v-col>
           </v-sheet>
         </v-col>
+        <v-col cols="12">
+          <v-alert dense outlined type="error">
+            The full dataset will be made available after the OpenPack
+            Challenge. Currently available data are smaller than the above
+            numbers.
+          </v-alert>
+        </v-col>
       </v-row>
     </v-container>
   </section>

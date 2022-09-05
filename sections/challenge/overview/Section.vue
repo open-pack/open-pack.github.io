@@ -5,6 +5,7 @@
         <v-col cols="12">
           <h2 class="text-h3 text-center font-weight-bold my-3">
             OpenPack Challenge 2022
+            <small class="op-brown--text">@PerCom 2023 WS</small>
           </h2>
           <p>
             We are hosting an activity recognition competition using the
