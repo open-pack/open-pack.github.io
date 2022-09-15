@@ -169,7 +169,8 @@
           <v-alert dense outlined type="error">
             The full dataset will be made available after the OpenPack
             Challenge. Currently available data are smaller than the above
-            numbers.
+            numbers. Depth images and LiDAR data will be available in the next
+            version.
           </v-alert>
         </v-col>
       </v-row>
