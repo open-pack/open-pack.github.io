@@ -10,11 +10,34 @@
         </v-col>
         <v-col cols="12">
           <h3 class="text-h6 font-weight-bold my-3">
-            Check List before Registration
+            Steps to Join This Challenge
           </h3>
-          <ul>
-            <li>TBA</li>
-          </ul>
+          <ol>
+            <li>
+              <span class="font-italic op-brown--text">[Every Members]</span>
+              Make your codalab accounts. All members should have thier own
+              accounts.
+            </li>
+            <li>
+              <span class="font-italic op-brown--text">[Every Members]</span>
+              <strong>Register</strong> to this challenge from
+              <strong>Participate</strong> tab in the codalab page.
+            </li>
+            <li>
+              <span class="font-italic op-brown--text">[Team Leader]</span>
+              Submit the Google Form for team registration.
+            </li>
+            <li>
+              <span class="op-brown--text"
+                >(Wait for a while... Admin team will check and aprove your
+                team.)</span
+              >
+            </li>
+            <li>
+              You got email from codalab about approval and you can submit your
+              prediction!
+            </li>
+          </ol>
         </v-col>
         <v-col cols="12" class="d-none d-md-block">
           <v-btn disabled color="op-brown darken-1 white--text text-button">
