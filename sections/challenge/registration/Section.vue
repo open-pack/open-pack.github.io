@@ -69,7 +69,6 @@
           <v-btn
             :href="urlGoogleForm"
             target="_blank"
-            disabled
             color="op-brown darken-1 white--text text-button"
           >
             <span class="text-decoration-none text-capitalize">
@@ -96,7 +95,6 @@
             :href="urlGoogleForm"
             target="_blank"
             block
-            disabled
             color="op-brown darken-1 white--text text-button"
           >
             <span class="text-decoration-none text-capitalize">
