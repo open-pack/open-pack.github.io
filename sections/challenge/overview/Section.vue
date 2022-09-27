@@ -7,20 +7,20 @@
             OpenPack Challenge 2022
           </h2>
           <p>
-            We are hosting an activity recognition competition using the
-            OpenPack dataset at PerCom 2023 Workshop! The task is very simple:
-            recognize 10 work operations in the OpenPack dataset.
+            We are hosting an activity recognition competition, using the
+            OpenPack dataset at a PerCom 2023 Workshop! The task is very simple:
+            Recognize 10 work operations from the OpenPack dataset.
           </p>
           <p>
             High recognition accuracy is required to introduce action
             recognition technology into the industrial domain. However, in
             packaging operations, not only the combination of items to be packed
-            changes a worker's movements greatly, but also a number of other
-            difficulties affects the process such as a wide variety of speed,
-            body movements and procedures which are highly dependent on the
-            skill level of the worker. Develop the perfect activity recognition
-            model using OpenPack's various modalities and contribute to the
-            advanced smart logistics centers!
+            change a worker's movements greatly but also a number of other
+            difficulties affect the packing process, such as a wide variety of
+            motion speed, body movements, and procedures which are highly
+            dependent on the skill level of the worker. Develop the perfect
+            activity recognition model using OpenPack's various modalities and
+            contribute to advancing smart logistics centers!
           </p>
         </v-col>
       </v-row>
