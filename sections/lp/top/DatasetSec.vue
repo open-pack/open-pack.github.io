@@ -16,8 +16,8 @@
             color="op-brown darken-1 white--text text-h6"
           >
             <span class="text-decoration-none">
-              <span class="text-lowercase">v0.2.1 </span>
-              <small>(2022-07-08)</small>
+              <span class="text-lowercase">v0.3.0 </span>
+              <small>(2022-09-TBA)</small>
             </span>
           </v-btn>
         </nuxt-link>
@@ -54,7 +54,7 @@ export default {
   name: 'DatasetSec',
   data: () => ({
     urlZenodo: 'https://doi.org/10.5281/zenodo.5909086',
-    newestVersion: 'v0-2-1',
+    newestVersion: 'v0-3-0',
   }),
   computed: {
     getReleaseNotePath: function () {
