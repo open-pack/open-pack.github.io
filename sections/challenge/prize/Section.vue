@@ -42,6 +42,22 @@
               for updates.
             </p>
           </v-col>
+
+          <v-col cols="12">
+            <h3>Winners Obligations</h3>
+            <p>
+              As a condition to being awarded a Prize, a top-3 winner must
+              fulfill the following obligations. The detail instructions will be
+              sent to top-3 winner after the final submission deadline.
+            </p>
+            <ul>
+              <li>Submit your code so that we can check for cheating.</li>
+              <li>
+                Submit a short report paper that describes the award
+                methodology.
+              </li>
+            </ul>
+          </v-col>
         </v-row>
       </v-container>
     </section>
