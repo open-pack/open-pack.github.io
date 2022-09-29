@@ -9,11 +9,11 @@
           </h2>
           <p>
             Get the latest information about the OpenPack Challenge or OpenPack
-            Dataset on our mailing list (Google Group). Please subscribe to our
-            mailing list now!
+            Dataset on our mailing list (Google Group) or Twitter. Please
+            subscribe and follow now!
           </p>
           <a
-            href="https://groups.google.com/g/openpack"
+            :href="googleGroup.url"
             target="_blank"
             class="text-decoration-none"
           >
@@ -39,6 +39,29 @@
               </span>
             </v-btn>
           </a>
+          <a :href="twitter.url" target="_blank" class="text-decoration-none">
+            <v-btn
+              class="d-inline-block d-md-none my-2"
+              block
+              color="op-brown darken-1 white--text text-button"
+            >
+              <span class="text-decoration-none text-capitalize">
+                Twitter
+                <v-icon>mdi-twitter</v-icon>
+                <v-icon>mdi-open-in-new</v-icon>
+              </span>
+            </v-btn>
+            <v-btn
+              class="d-none d-md-inline-block my-2"
+              color="op-brown darken-1 white--text text-button"
+            >
+              <span class="text-decoration-none text-capitalize">
+                Twitter
+                <v-icon>mdi-twitter</v-icon>
+                <v-icon>mdi-open-in-new</v-icon>
+              </span>
+            </v-btn>
+          </a>
         </v-col>
       </v-row>
     </v-container>
@@ -53,6 +76,14 @@ export default {
       default: '',
     },
   },
+  data: () => ({
+    googleGroup: {
+      url: 'https://groups.google.com/g/openpack',
+    },
+    twitter: {
+      url: 'https://twitter.com/OpenPackDataset',
+    },
+  }),
 }
 </script>
 <style lang="scss" scoped></style>
