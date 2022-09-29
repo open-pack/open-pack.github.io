@@ -19,35 +19,25 @@
             color="op-brown darken-1 white--text text-h6"
           >
             <span class="text-decoration-none">
-              <span class="text-lowercase">v0.2.1 </span>
-              <small>(2022-07-08)</small>
+              <span class="text-lowercase">{{ zenodo.version }}</span>
+              <small>({{ zenodo.date }})</small>
             </span>
           </v-btn>
         </nuxt-link>
       </v-col>
-      <v-col cols="12" md="6" class="py-1">
-        <a :href="urlZenodo" target="_blank">
+      <v-col cols="12" class="py-1">
+        <a :href="optk.url" target="_blank">
           <v-btn
             class="py-2"
             block
             color="op-brown darken-1 white--text text-h6"
           >
-            <span class="text-decoration-none text-lowercase"> zenodo </span>
+            <span class="text-decoration-none text-capitalize">
+              OpenPack Toolkit
+            </span>
             <v-icon class="text-subtitle-1 mx-1">mdi-open-in-new</v-icon>
           </v-btn>
         </a>
-      </v-col>
-      <v-col cols="12" md="6" class="py-1">
-        <v-btn
-          class="py-2"
-          block
-          disabled
-          color="op-brown darken-1 white--text text-h6"
-        >
-          <span class="text-decoration-none text-capitalize">
-            Google Drive
-          </span>
-        </v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -56,12 +46,18 @@
 export default {
   name: 'DatasetSec',
   data: () => ({
-    urlZenodo: 'https://doi.org/10.5281/zenodo.5909086',
-    newestVersion: 'v0-2-1',
+    optk: {
+      url: 'https://github.com/open-pack/openpack-toolkit',
+    },
+    zenodo: {
+      url: 'https://doi.org/10.5281/zenodo.5909086',
+      version: 'v0-3-0',
+      date: 'TBA, 2022',
+    },
   }),
   computed: {
     getReleaseNotePath: function () {
-      return 'release/' + this.newestVersion
+      return 'release/' + this.zenodo.version
     },
   },
 }

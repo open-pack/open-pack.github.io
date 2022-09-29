@@ -2,6 +2,8 @@
   <v-container fluid class="pa-0">
     <ChallengeOverviewSection />
     <ChallengeTaskSection />
+    <ChallengePrizeSection />
+    <ChallengeRuleSection />
     <ChallengeRegistrationSection />
     <ChallengeTimelineSection />
     <SnsGoogleGroup />

@@ -4,9 +4,9 @@
       <v-row>
         <v-col cols="12">
           <h3 class="text-h4">Definition of Activity Classes</h3>
-          <p>Coming Soon...</p>
         </v-col>
       </v-row>
+      <GalleryActivityOpenPackOperationList/>
     </v-container>
   </section>
 </template>

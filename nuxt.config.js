@@ -115,6 +115,7 @@ export default {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://open-pack.github.io',
+    trailingSlash: true,
     exclude: [
       '/404',
     ]

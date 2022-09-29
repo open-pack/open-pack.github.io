@@ -54,6 +54,11 @@ export default {
         role: 'Annotator',
         imgSrc: null,
       },
+      {
+        name: 'Keisuke Tsukamoto',
+        role: 'Web Developper',
+        imgSrc: null,
+      },
     ],
     adviser: [
       {
