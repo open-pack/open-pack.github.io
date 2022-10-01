@@ -48,14 +48,8 @@
                     Sessions
                   </v-btn>
                 </nuxt-link>
-                <nuxt-link to="/" class="text-decoration-none">
-                  <v-btn
-                    class="ma-2"
-                    outlined
-                    small
-                    disabled
-                    color="op-brown darken-1"
-                  >
+                <nuxt-link to="/gallery/" class="text-decoration-none">
+                  <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
                     Activity Classes
                   </v-btn>
