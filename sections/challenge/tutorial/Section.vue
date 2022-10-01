@@ -73,7 +73,7 @@ export default {
         body: 'This notebook shows how to download and visualize the OpenPack dataset. You can get an overview of the dataset and get familiar with our data and tools.',
         level: 'Beginner',
         tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-toolkit/blob/main/samples/OpenPack_GettingStarted.ipynb',
+        url: 'https://colab.research.google.com/github/open-pack/openpack-toolkit/blob/main/samples/OpenPack_DataVisualization.ipynb',
       },
       {
         title:
@@ -81,7 +81,7 @@ export default {
         body: 'This notebook shows how to train and test U-Net to predict work operations for each timeslot. You can learn the pipline of model training, e.g. loading data, training, predicting and visuaizing model outputs.',
         level: 'Beginner',
         tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/GETTING_STARTED__U-Net.ipynb',
+        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File.ipynb',
       },
       {
         title:
