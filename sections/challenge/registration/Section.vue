@@ -58,7 +58,6 @@
             :href="urlCodalab"
             target="_blank"
             class="mx-2"
-            disabled
             color="op-brown darken-1 white--text text-button"
           >
             <span class="text-decoration-none text-capitalize">
@@ -83,7 +82,6 @@
             target="_blank"
             class="my-2"
             block
-            disabled
             color="op-brown darken-1 white--text text-button"
           >
             <span class="text-decoration-none text-capitalize">
@@ -112,7 +110,6 @@
           <v-btn
             :href="urlCodalab"
             target="_blank"
-            disabled
             color="op-brown darken-1 white--text text-button"
           >
             <span class="text-decoration-none text-capitalize">
@@ -125,7 +122,6 @@
           <v-btn
             class="my-2"
             block
-            disabled
             color="op-brown darken-1 white--text text-button"
           >
             <span class="text-decoration-none text-capitalize">
@@ -139,12 +135,14 @@
   </section>
 </template>
 <script scoped>
+import config from '@/assets/config'
+
 export default {
   name: 'ChallengeRegistrationSection',
   data: () => ({
     urlGoogleForm:
       'https://docs.google.com/forms/d/e/1FAIpQLSfK9BueMB3KWbxAcyup13xZtX8YyVyqVtBhG7YMnOpq1dyFqQ/viewform?usp=sf_link',
-    urlCodalab: 'https://codalab.lisn.upsaclay.fr/',
+    urlCodalab: config.challenge.codalab,
   }),
 }
 </script>
