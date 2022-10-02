@@ -30,9 +30,9 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Start</div>
-              <p class="text-h5 font-weight-bold">2022-10-15</p>
+              <p class="text-h5 font-weight-bold">2022-10-15 (AOE)</p>
               <div>End</div>
-              <p class="text-h5 font-weight-bold">2023-01-15</p>
+              <p class="text-h5 font-weight-bold">2023-01-15 (AOE)</p>
             </v-card-text>
           </v-card>
         </v-col>
