@@ -5,13 +5,19 @@ export default {
     footer: {
       links: [
         { icon: 'mdi-github', link: 'https://github.com/open-pack' },
+        { icon: 'mdi-twitter', link: 'https://twitter.com/OpenPackDataset' },
+        { icon: 'mdi-account-multiple', link: 'https://groups.google.com/g/openpack' },
         { icon: 'mdi-youtube', link: 'https://www.youtube.com/channel/UC-AzuKxoJcyOtFi7B3CS4rA' },
+        { icon: 'mdi-school', link: 'https://mmde-lab.github.io/webpage/index-e/' },
       ],
     },
     copyrightInfo: {
       year: 2022,
       owner: 'OpenPack Dataset Team',
     },
+  },
+  challenge: {
+    codalab: 'https://codalab.lisn.upsaclay.fr/competitions/7830',
   },
   members: {
     core: [
