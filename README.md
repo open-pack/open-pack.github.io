@@ -3,19 +3,21 @@
 ## Build Setup
 
 ```bash
+# clone this repo and switch to dev branch
+$ git clone git@github.com:open-pack/web-dev.git
+$ git checkout -b dev origin/dev
+
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# If you are using node>=17.x.x, set `NODE_OPTIONS` variable to avoid errors.
+# (for macos/linux)
 $ export NODE_OPTIONS=--openssl-legacy-provider
+# (for powershell)
+>> $ENV:NODE_OPTIONS="--openssl-legacy-provider"
+
+# serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
