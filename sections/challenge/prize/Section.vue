@@ -31,15 +31,15 @@
               <v-icon>mdi-wallet-travel</v-icon>
             </h3>
             <p>
-              At least one person from the top-2 team strongly encouraged to
+              At least one person from the top-3 team strongly encouraged to
               attend the award ceremony. We will support the travel fee for the
               attendance up to 1 member (500,000JPY/person) from each winner
               team.
             </p>
-            <p>
-              As for the third place team, we are willing to support them, but
-              may not be able to do so due to budget limitations. Please wait
-              for updates.
+            <p class="text-caption op-brown--text">
+              Update: We were able to secure a budget for three people, so we
+              changed our travel fee support from the top-2 to the top-3 teams.
+              (2022-10-11)
             </p>
           </v-col>
 
