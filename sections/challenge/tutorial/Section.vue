@@ -76,12 +76,18 @@ export default {
         url: 'https://colab.research.google.com/github/open-pack/openpack-toolkit/blob/main/samples/OpenPack_DataVisualization.ipynb',
       },
       {
-        title:
-          'Train U-Net with OpenPack Dataset (IMU) and Predict Work Operations',
+        title: 'U-Net: Train Model and Make Submission File',
         body: 'This notebook shows how to train and test U-Net to predict work operations for each timeslot. You can learn the pipline of model training, e.g. loading data, training, predicting and visuaizing model outputs.',
         level: 'Beginner',
         tool: 'Colab',
         url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File.ipynb',
+      },
+      {
+        title: 'Change Input Data (Customize Configs and Dataset Classes)',
+        body: 'This notebook describes how to change input modality for UNet. Customizing config YAML files and Dataset classes.',
+        level: 'Intermediate',
+        tool: 'Colab',
+        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Change-Input-Data.ipynb',
       },
       {
         title:
@@ -89,7 +95,7 @@ export default {
         body: 'This notebook will show you how to train and test DeepConvLSTM models. You will learn important concepts when building a work activity recognition model. This tutorial is currently only available in Japanese.',
         level: 'Beginner',
         tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/feat-tutorial/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling__JA.ipynb',
+        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling__JA.ipynb',
       },
     ],
   }),
