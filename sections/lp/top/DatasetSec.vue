@@ -20,7 +20,7 @@
           >
             <span class="text-decoration-none">
               <span class="text-lowercase">{{ zenodo.version }}</span>
-              <small>({{ zenodo.date }})</small>
+              <small class="text-capitalize">({{ zenodo.date }})</small>
             </span>
           </v-btn>
         </nuxt-link>
@@ -52,7 +52,7 @@ export default {
     zenodo: {
       url: 'https://doi.org/10.5281/zenodo.5909086',
       version: 'v0-3-0',
-      date: 'TBA, 2022',
+      date: 'Oct 1, 2022',
     },
   }),
   computed: {
