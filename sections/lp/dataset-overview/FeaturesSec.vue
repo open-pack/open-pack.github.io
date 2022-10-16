@@ -33,7 +33,7 @@
                 shipping boxes in total and the total recording length is more
                 than 53 hours. The work operations and actions were annotated by
                 the professional annotators. The total number of annotated work
-                operations and actions are 21,041 and 38,671 respectively.
+                operations and actions are 20,129 and 52,529 respectively.
               </p>
               <div class="d-flex justify-center justify-md-end">
                 <nuxt-link to="/" class="text-decoration-none">

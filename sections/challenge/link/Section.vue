@@ -46,13 +46,13 @@ export default {
     links: [
       {
         contentType: 'GitHub',
-        title: 'openpack-toolkit',
+        title: 'OpenPack Toolkit',
         description: 'dataset utilities and documents',
         url: 'https://github.com/open-pack/openpack-toolkit',
       },
       {
         contentType: 'GitHub',
-        title: 'openpack-torch',
+        title: 'OpenPack Torch',
         description: 'sample code (PyTorch)',
         url: 'https://github.com/open-pack/openpack-torch',
       },
@@ -61,6 +61,12 @@ export default {
         title: 'OpenPack Dataset Channel',
         description: 'sample videos',
         url: 'https://www.youtube.com/channel/UC-AzuKxoJcyOtFi7B3CS4rA',
+      },
+      {
+        contentType: 'Codalab: System for Competition',
+        title: 'OpenPack Challenge 2022',
+        description: 'Submission and evaluation system for this challenge.',
+        url: 'https://codalab.lisn.upsaclay.fr/competitions/7830',
       },
     ],
   }),

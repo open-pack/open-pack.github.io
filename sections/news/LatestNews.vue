@@ -36,19 +36,33 @@ export default {
   data: () => ({
     items: [
       {
-        date: '2022.08.23',
-        title: 'Renewal of our homepage.',
-        subtitle: 'New website is now published!',
-        color: 'secondary',
-        link: '',
+        date: '2022.10.15',
+        title: 'OpenPack Challenge has launched!',
+        subtitle: '',
+        color: 'op-brawn--text darken-2',
+        link: 'challenge2022',
       },
       {
-        date: '2022.07.08',
-        title: 'Dataset (v0.2.1) is released!',
+        date: '2022.10.01',
+        title: 'Dataset (v0.3.0) is released!',
         subtitle: '',
         color: 'secondary',
-        link: 'release/v0-2-1',
+        link: 'release/v0-3-0',
       },
+      // {
+      //   date: '2022.08.23',
+      //   title: 'Renewal of our homepage.',
+      //   subtitle: 'New website is now published!',
+      //   color: 'secondary',
+      //   link: '',
+      // },
+      // {
+      //   date: '2022.07.08',
+      //   title: 'Dataset (v0.2.1) is released!',
+      //   subtitle: '',
+      //   color: 'secondary',
+      //   link: 'release/v0-2-1',
+      // },
     ],
   }),
 }

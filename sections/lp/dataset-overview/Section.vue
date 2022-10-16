@@ -9,7 +9,7 @@
               OpenPacking Dataset is a new large-scale multi-modal dataset of
               packing processes. OpenPack is an open access logistics-dataset
               for human activity recognition, which contains 53 hours of human
-              movement data with 21,041 instances of work operation annotation.
+              movement data with 20,129 instances of work operation annotation.
               In addition, OpenPack dataset contains data from IoT-enabled
               devices and rich metadata such as error annotation and order
               information.

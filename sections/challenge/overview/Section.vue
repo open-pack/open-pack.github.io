@@ -3,14 +3,19 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h2 class="text-h3 text-center font-weight-bold my-3">
-            OpenPack Challenge 2022
-            <small class="op-brown--text">@PerCom 2023 WS</small>
+          <div class="d-block">
+            <v-img :src="imgLogo" alt="OpenPack" class="mr-3" contain></v-img>
+          </div>
+          <h2
+            class="op-brown--text text-h5 text-md-h3 text-center font-weight-bold my-3"
+          >
+            @PerCom 2023 WS BiRD
           </h2>
           <p>
-            We are hosting an activity recognition competition, using the
-            OpenPack dataset at a PerCom 2023 Workshop! The task is very simple:
-            Recognize 10 work operations from the OpenPack dataset.
+            We are hosting an activity recognition competition,
+            <strong class="font-weight-black">OpenPack Challenge 2022</strong>,
+            using the OpenPack dataset at a PerCom 2023 Workshop! The task is
+            very simple: Recognize 10 work operations from the OpenPack dataset.
           </p>
           <p>
             High recognition accuracy is required to introduce action
@@ -67,6 +72,9 @@
 <script scoped>
 export default {
   name: 'LpChallengeSection',
+  data: () => ({
+    imgLogo: require('@/assets/img/brand/OpenPackCHALLENG-black.png'),
+  }),
 }
 </script>
 <style lang="scss" scoped></style>
