@@ -91,11 +91,11 @@ export default {
       },
       {
         title:
-          'Train DeepConvLSTM and Learn the Modeling  Basics on OpenPack Dataset (Japanese)',
+          'Train DeepConvLSTM and Learn the Modeling  Basics on OpenPack Dataset',
         body: 'This notebook will show you how to train and test DeepConvLSTM models. You will learn important concepts when building a work activity recognition model. This tutorial is currently only available in Japanese.',
         level: 'Beginner',
         tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling__JA.ipynb',
+        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling.ipynb',
       },
     ],
   }),

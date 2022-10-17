@@ -51,8 +51,8 @@ export default {
     },
     zenodo: {
       url: 'https://doi.org/10.5281/zenodo.5909086',
-      version: 'v0-3-0',
-      date: 'Oct 1, 2022',
+      version: 'v0-3-1',
+      date: 'Oct 17, 2022',
     },
   }),
   computed: {
