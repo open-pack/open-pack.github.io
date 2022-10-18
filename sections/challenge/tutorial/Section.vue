@@ -30,12 +30,14 @@
                       </div>
                       <div class="d-flex justify-end">
                         <a
-                          :href="item.url"
+                          v-for="link in item.links"
+                          :key="link.url"
+                          :href="link.url"
                           target="_blank"
                           class="text-decoration-none"
                         >
                           <v-btn color="op-brown" text>
-                            Open in {{ item.tool }}
+                            {{ link.tool }}
                             <v-icon class="mx-1">mdi-open-in-new</v-icon>
                           </v-btn>
                         </a>
@@ -72,30 +74,54 @@ export default {
         title: 'Download and visualize OpenPack Dataset',
         body: 'This notebook shows how to download and visualize the OpenPack dataset. You can get an overview of the dataset and get familiar with our data and tools.',
         level: 'Beginner',
-        tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-toolkit/blob/main/samples/OpenPack_DataVisualization.ipynb',
+        links: [
+          {
+            tool: 'Colab',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-toolkit/blob/main/samples/OpenPack_DataVisualization.ipynb',
+          },
+        ],
       },
       {
         title: 'U-Net: Train Model and Make Submission File',
         body: 'This notebook shows how to train and test U-Net to predict work operations for each timeslot. You can learn the pipline of model training, e.g. loading data, training, predicting and visuaizing model outputs.',
         level: 'Beginner',
-        tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File.ipynb',
+        links: [
+          {
+            tool: 'Colab',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File.ipynb',
+          },
+          {
+            tool: 'Colab (日本語)',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File__JA.ipynb',
+          },
+        ],
       },
       {
         title: 'Change Input Data (Customize Configs and Dataset Classes)',
         body: 'This notebook describes how to change input modality for UNet. Customizing config YAML files and Dataset classes.',
         level: 'Intermediate',
-        tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Change-Input-Data.ipynb',
+        links: [
+          {
+            tool: 'Colab',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Change-Input-Data.ipynb',
+          },
+        ],
       },
       {
         title:
           'Train DeepConvLSTM and Learn the Modeling  Basics on OpenPack Dataset',
         body: 'This notebook will show you how to train and test DeepConvLSTM models. You will learn important concepts when building a work activity recognition model. This tutorial is currently only available in Japanese.',
         level: 'Beginner',
-        tool: 'Colab',
-        url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling.ipynb',
+        links: [
+          {
+            tool: 'Colab',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling.ipynb',
+          },
+          {
+            tool: 'Colab (日本語)',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling__JA.ipynb',
+          },
+        ],
       },
     ],
   }),
