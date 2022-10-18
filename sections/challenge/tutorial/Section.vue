@@ -110,7 +110,7 @@ export default {
       {
         title:
           'Train DeepConvLSTM and Learn the Modeling  Basics on OpenPack Dataset',
-        body: 'This notebook will show you how to train and test DeepConvLSTM models. You will learn important concepts when building a work activity recognition model. This tutorial is currently only available in Japanese.',
+        body: 'This notebook will show you how to train and test DeepConvLSTM models. You will learn important concepts when building a work activity recognition model.',
         level: 'Beginner',
         links: [
           {
