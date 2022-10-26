@@ -2,7 +2,7 @@
   <section class="gnt-sec-3 op-brown lighten-2" :class="margin">
     <v-container>
       <v-row>
-        <v-col cols="12">
+        <v-col cols="12" md="6">
           <h2 class="font-weight-bold my-3">
             Get Updates from OpenPack Team!
             <v-icon>mdi-email-multiple</v-icon>
@@ -63,13 +63,23 @@
             </v-btn>
           </a>
         </v-col>
+        <v-col cols="12" md="6">
+          <Timeline
+            id="OpenPackDataset"
+            source-type="profile"
+            :options="{ tweetLimit: '2' }"
+          />
+        </v-col>
       </v-row>
     </v-container>
   </section>
 </template>
 <script scoped>
+import { Timeline } from 'vue-tweet-embed'
+
 export default {
   name: 'ChallengeRegistrationSection',
+  components: { Timeline },
   props: {
     margin: {
       type: String,
