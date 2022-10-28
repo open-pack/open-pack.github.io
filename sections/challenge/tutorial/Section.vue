@@ -122,7 +122,7 @@ export default {
           },
           {
             tool: 'Colab (日本語)',
-            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling__JA.ipynb',
+            url: 'https://colab.research.google.com/drive/1DjkTu3Sq-8jH-0bqcApyR9qxUwNBn9G6?usp=sharing',
           },
         ],
       },
