@@ -7,6 +7,7 @@
             <h2>Getting Started</h2>
           </v-col>
           <v-col cols="12">
+            <h3>Notebooks (Colab / Jupyter Notebook)</h3>
             <v-list two-line>
               <v-list-item-group
                 v-model="selected"
@@ -59,6 +60,8 @@
               colab.
             </v-alert>
           </v-col>
+          <ChallengeTutorialVideo />
+          <ChallengeTutorialSlide />
         </v-row>
       </v-container>
     </section>
