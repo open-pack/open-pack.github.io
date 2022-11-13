@@ -4,7 +4,7 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2>Getting Started</h2>
+            <h2 id="challenge-tutorial-section">Getting Started</h2>
           </v-col>
           <v-col cols="12">
             <h3>Notebooks (Colab / Jupyter Notebook)</h3>

@@ -4,7 +4,7 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2>Prize</h2>
+            <h2 id="challenge-prize-section">Prize</h2>
           </v-col>
         </v-row>
         <v-row>

@@ -4,7 +4,9 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2>Rules for OpenPack Challenge 2022</h2>
+            <h2 id="challenge-rule-section">
+              Rules for OpenPack Challenge 2022
+            </h2>
           </v-col>
         </v-row>
         <v-row>

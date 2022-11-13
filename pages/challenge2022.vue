@@ -10,6 +10,7 @@
     <ChallengeTutorialSection />
     <ChallengeLinkSection />
     <ChallengeTeamSection />
+    <OrganismsTopScrollBtn />
   </v-container>
 </template>
 

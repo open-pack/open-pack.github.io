@@ -4,7 +4,7 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2>Timeline</h2>
+            <h2 id="challenge-timeline-section">Timeline</h2>
           </v-col>
           <v-col cols="12">
             <v-timeline align-top dense>

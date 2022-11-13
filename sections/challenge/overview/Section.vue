@@ -66,6 +66,7 @@
           </v-card>
         </v-col>
       </v-row>
+      <ChallengeOverviewContents />
     </v-container>
   </section>
 </template>
