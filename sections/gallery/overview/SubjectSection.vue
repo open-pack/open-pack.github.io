@@ -3,10 +3,12 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h3 class="text-h4">Subjects and Sessions</h3>
-          <GallerySubjectSection />
+          <h3 id="gallery-overview-subject-sessions" class="text-h4">
+            Subjects and Sessions
+          </h3>
         </v-col>
       </v-row>
+      <GallerySubjectSection />
     </v-container>
   </section>
 </template>

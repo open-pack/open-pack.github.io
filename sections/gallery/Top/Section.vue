@@ -4,8 +4,8 @@
       <v-row>
         <v-col cols="12">
           <h2 class="text-h3 text-center font-weight-bold my-3">Gallery</h2>
-          <p>Coming Soon...</p>
         </v-col>
+        <GalleryTopContents />
       </v-row>
     </v-container>
   </section>
