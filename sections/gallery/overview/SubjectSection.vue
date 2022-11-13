@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="12">
           <h3 class="text-h4">Subjects and Sessions</h3>
-          <p>Coming Soon...</p>
+          <GallerySubjectSection />
         </v-col>
       </v-row>
     </v-container>
