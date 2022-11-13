@@ -4,7 +4,7 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2>Tools</h2>
+            <h2 id="challenge-link-section">Tools</h2>
           </v-col>
         </v-row>
         <v-row>

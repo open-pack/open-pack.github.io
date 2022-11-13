@@ -3,10 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h3 class="text-h4">Sensors</h3>
-          <p>Coming Soon...</p>
+          <h3 id="gallery-overview-sensor" class="text-h4">Sensors</h3>
         </v-col>
       </v-row>
+      <GalleryOverviewOpenPackSensorList />
     </v-container>
   </section>
 </template>

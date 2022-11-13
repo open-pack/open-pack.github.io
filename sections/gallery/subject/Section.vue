@@ -1,16 +1,15 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col cols="12">
-        <v-data-table
-          :headers="headers"
-          :items="sessions"
-          disable-pagination
-          hide-default-footer
-        ></v-data-table>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-row>
+    <v-col cols="12">
+      <h3 id="gellery-subject-sessions">Sessions</h3>
+      <v-data-table
+        :headers="headers"
+        :items="sessions"
+        disable-pagination
+        hide-default-footer
+      ></v-data-table>
+    </v-col>
+  </v-row>
 </template>
 <script scoped>
 import sessions from '@/assets/data/sessions'

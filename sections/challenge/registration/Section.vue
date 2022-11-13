@@ -3,7 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h2 class="text-h5 font-weight-bold my-3">
+          <h2
+            id="challenge-registration-section"
+            class="text-h5 font-weight-bold my-3"
+          >
             Registration and Submission
           </h2>
         </v-col>

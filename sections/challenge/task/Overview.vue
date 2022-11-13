@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h2>Overview</h2>
+          <h2 id="challenge-task-section-overview">Overview</h2>
         </v-col>
       </v-row>
       <v-row>

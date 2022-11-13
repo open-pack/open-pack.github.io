@@ -9,8 +9,8 @@
           </h2>
           <p>
             Get the latest information about the OpenPack Challenge or OpenPack
-            Dataset on our mailing list (Google Group) or Twitter. Please
-            subscribe and follow now!
+            Dataset on our mailing list (Google Group), Twitter, and WeChat.
+            Please subscribe and follow now!
           </p>
           <a
             :href="googleGroup.url"
@@ -62,6 +62,10 @@
               </span>
             </v-btn>
           </a>
+          <section class="mt-3 d-flex d-md-block justyfy-center">
+            <h4>WeChat Group <small>- OpenPack Challenge</small></h4>
+            <v-img :src="wechat.img" max-width="150px" />
+          </section>
         </v-col>
         <v-col cols="12" md="6">
           <Timeline
@@ -92,6 +96,9 @@ export default {
     },
     twitter: {
       url: 'https://twitter.com/OpenPackDataset',
+    },
+    wechat: {
+      img: require('@/assets/img/sns/qr_openpack_wechat.png'),
     },
   }),
 }

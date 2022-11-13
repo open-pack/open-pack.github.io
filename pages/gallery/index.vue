@@ -3,6 +3,7 @@
     <GalleryTopSection />
     <GalleryActivitySection />
     <GalleryOverviewSection />
+    <OrganismsTopScrollBtn />
   </v-container>
 </template>
 

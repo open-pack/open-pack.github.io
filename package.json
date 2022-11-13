@@ -1,6 +1,6 @@
 {
   "name": "openpack-web",
-  "version": "0.4.1",
+  "version": "0.5.1",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -22,7 +22,9 @@
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0",
-    "vue": "^2.6.14",
+    "scrollto": "^1.0.1",
+    "vue": "^2.7.13",
+    "vue-scrollto": "^2.20.0",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "vue-tweet-embed": "^2.4.0",

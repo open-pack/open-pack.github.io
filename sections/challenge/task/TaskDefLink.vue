@@ -3,7 +3,9 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h2>Task (Technical Details)</h2>
+          <h2 id="challenge-task-section-task-def-link">
+            Task (Technical Details)
+          </h2>
           <p>
             Plese visit the following page for more technical details such as
             task definition, evaluation procedures, and rules.
