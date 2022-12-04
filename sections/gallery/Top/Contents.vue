@@ -6,6 +6,7 @@
       </v-col>
       <v-col cols="12" class="d-flex justify-center pt-0">
         <v-btn
+          @click="test"
           v-for="(list, index) in lists"
           :key="index"
           v-scroll-to="`#${list.link}`"
@@ -39,6 +40,14 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    test() {
+      this.$gtag('event', 'test', {
+        // パラメータなどはここに追加
+        event_name: 'test',
+      })
+    },
   },
 }
 </script>
