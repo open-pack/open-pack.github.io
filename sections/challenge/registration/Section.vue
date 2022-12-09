@@ -62,6 +62,7 @@
             target="_blank"
             class="mx-2"
             color="op-brown darken-1 white--text text-button"
+            @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
               (Step.2) Player Registration (Codalab)
@@ -72,6 +73,7 @@
             :href="urlGoogleForm"
             target="_blank"
             color="op-brown darken-1 white--text text-button"
+            @click="openGoogleFormPage"
           >
             <span class="text-decoration-none text-capitalize">
               (Step.3) Team Registration (Google Form)
@@ -86,6 +88,7 @@
             class="my-2"
             block
             color="op-brown darken-1 white--text text-button"
+            @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
               (S2) Player Registration (Codalab)
@@ -97,6 +100,7 @@
             target="_blank"
             block
             color="op-brown darken-1 white--text text-button"
+            @click="openGoogleFormPage"
           >
             <span class="text-decoration-none text-capitalize">
               (S3) Team Registration (Google Form)
@@ -114,6 +118,7 @@
             :href="urlCodalab"
             target="_blank"
             color="op-brown darken-1 white--text text-button"
+            @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
               Codalab
@@ -126,6 +131,7 @@
             class="my-2"
             block
             color="op-brown darken-1 white--text text-button"
+            @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
               Codalab
@@ -147,6 +153,24 @@ export default {
       'https://docs.google.com/forms/d/e/1FAIpQLSfK9BueMB3KWbxAcyup13xZtX8YyVyqVtBhG7YMnOpq1dyFqQ/viewform?usp=sf_link',
     urlCodalab: config.challenge.codalab,
   }),
+  methods: {
+    openGoogleFormPage() {
+      this.$gtag('event', 'open__challenge__registration__google_form', {
+        event_name: 'open',
+        page_title: 'challenge2022',
+        section_name: 'registration',
+        button: 'google_form',
+      })
+    },
+    openCodalabPage() {
+      this.$gtag('event', 'open__challenge__registration__codalab', {
+        event_name: 'open',
+        page_title: 'challenge2022',
+        section_name: 'registration',
+        button: 'codalab',
+      })
+    },
+  },
 }
 </script>
 <style lang="scss" scoped></style>
