@@ -6,7 +6,7 @@
       </v-col>
       <v-col cols="12" class="d-flex justify-center pt-0">
         <v-btn
-          @click="test"
+          @click="sendToGoogleAnalytics(list)"
           v-for="(list, index) in lists"
           :key="index"
           v-scroll-to="`#${list.link}`"
@@ -42,11 +42,29 @@ export default {
     }
   },
   methods: {
-    test() {
-      this.$gtag('event', 'test', {
-        // パラメータなどはここに追加
-        event_name: 'test',
-      })
+    sendToGoogleAnalytics(list) {
+      switch (list.name) {
+        case 'Activity - Operations':
+          this.$gtag('event', 'click__gallery__contents__activity_operations', {
+            // パラメータなどはここに追加
+            event_name: 'click',
+          })
+          break
+        case 'Sensors':
+          this.$gtag('event', 'click__gallery__contents__sensors', {
+            // パラメータなどはここに追加
+            event_name: 'click',
+          })
+          break
+        case 'Sessions':
+          this.$gtag('event', 'click__gallery__contents__sessions', {
+            // パラメータなどはここに追加
+            event_name: 'click',
+          })
+          break
+        default:
+          break
+      }
     },
   },
 }
