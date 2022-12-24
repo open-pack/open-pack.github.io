@@ -36,22 +36,19 @@
                 operations and actions are 20,129 and 52,529 respectively.
               </p>
               <div class="d-flex justify-center justify-md-end">
-                <nuxt-link to="/" class="text-decoration-none">
-                  <v-btn
-                    class="ma-2"
-                    outlined
-                    small
-                    disabled
-                    color="op-brown darken-1"
-                  >
-                    <v-icon>mdi-arrow-right-thick</v-icon>
-                    Sessions
-                  </v-btn>
-                </nuxt-link>
-                <nuxt-link to="/gallery/" class="text-decoration-none">
+                <nuxt-link
+                  to="/gallery/annotation"
+                  class="text-decoration-none"
+                >
                   <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
                     Activity Classes
+                  </v-btn>
+                </nuxt-link>
+                <nuxt-link to="/gallery/subject" class="text-decoration-none">
+                  <v-btn class="ma-2" outlined small color="op-brown darken-1">
+                    <v-icon>mdi-arrow-right-thick</v-icon>
+                    Sessions
                   </v-btn>
                 </nuxt-link>
               </div>
@@ -94,14 +91,8 @@
                 but have strong relation with specific activity classes.
               </p>
               <div class="d-flex justify-center justify-md-end">
-                <nuxt-link to="/" class="text-decoration-none">
-                  <v-btn
-                    class="ma-2"
-                    outlined
-                    small
-                    disabled
-                    color="op-brown darken-1"
-                  >
+                <nuxt-link to="/gallery/modality" class="text-decoration-none">
+                  <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
                     Sensor List
                   </v-btn>

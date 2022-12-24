@@ -54,7 +54,7 @@ export default {
       default: null,
     },
     links: {
-      type: Object,
+      type: Array,
       default: null,
     },
   },

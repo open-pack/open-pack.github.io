@@ -12,7 +12,6 @@
 </template>
 <script scoped>
 export default {
-  name: 'GalleryActivityOpenPackSensorList',
   data() {
     return {
       headers: [
