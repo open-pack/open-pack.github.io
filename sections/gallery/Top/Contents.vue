@@ -6,13 +6,13 @@
       </v-col>
       <v-col cols="12" class="d-flex justify-center pt-0">
         <v-btn
-          @click="sendToGoogleAnalytics(list)"
           v-for="(list, index) in lists"
           :key="index"
           v-scroll-to="`#${list.link}`"
           class="ma-1 text-capitalize"
           outlined
           color="op-brown"
+          @click="sendToGoogleAnalytics(list)"
         >
           {{ list.name }}
         </v-btn>
@@ -31,12 +31,12 @@ export default {
           link: 'gellery-activity-openpackoperationlist',
         },
         {
-          name: 'Sensors',
-          link: 'gallery-overview-sensor',
+          name: 'Recording Sessions',
+          link: 'gellery-subject-recording-session-section',
         },
         {
-          name: 'Sessions',
-          link: 'gellery-subject-sessions',
+          name: 'Sensors',
+          link: 'gallery-modality-section',
         },
       ],
     }
@@ -56,7 +56,7 @@ export default {
             event_name: 'click',
           })
           break
-        case 'Sessions':
+        case 'Recording Sessions':
           this.$gtag('event', 'click__gallery__contents__sessions', {
             // パラメータなどはここに追加
             event_name: 'click',
