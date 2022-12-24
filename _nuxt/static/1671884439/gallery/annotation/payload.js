@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gallery/annotation", {data:[{}],fetch:{},mutations:void 0});
