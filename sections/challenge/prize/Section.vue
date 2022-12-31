@@ -31,24 +31,37 @@
               <v-icon>mdi-wallet-travel</v-icon>
             </h3>
             <p>
-              At least one person from the top-3 team strongly encouraged to
-              attend the award ceremony. We will support the travel fee for the
-              attendance up to 1 member (500,000JPY/person) from each winner
-              team.
+              At least one person from the
+              <strong>
+                <span class="text-decoration-line-through">top-3</span>
+                top-5
+              </strong>
+              team strongly encouraged to attend the award ceremony. We will
+              support the travel fee for the attendance up to 1 member (<strong
+                >up to 750,000JPY/person</strong
+              >) from each winner team.
             </p>
             <p class="text-caption op-brown--text">
               Update: We were able to secure a budget for three people, so we
               changed our travel fee support from the top-2 to the top-3 teams.
               (2022-10-11)
             </p>
+            <p class="text-caption op-brown--text">
+              Update: The top-5 teams will receive travel support. This means
+              that in addition to the top three teams, one member from the 4th
+              and 5th place teams will also be able to attend Percom2023 with
+              travel support. In addition, the maximum support amount has been
+              changed from 500,000 JPY to 750,000 JPY. (2022-12-31)
+            </p>
           </v-col>
 
           <v-col cols="12">
             <h3>Winners Obligations</h3>
             <p>
-              As a condition to being awarded a Prize, a top-3 winner must
-              fulfill the following obligations. The detail instructions will be
-              sent to top-3 winner after the final submission deadline.
+              As a condition to being awarded a Prize, a
+              <strong>top-5</strong> winner must fulfill the following
+              obligations. The detail instructions will be sent to
+              <strong>top-5</strong> winner after the final submission deadline.
             </p>
             <ul>
               <li>Submit your code so that we can check for cheating.</li>
