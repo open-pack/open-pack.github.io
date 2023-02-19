@@ -19,7 +19,7 @@
                     <div class="op-brown--text text-subtitle-1">
                       {{ item.datetime }}
                     </div>
-                    <h5 class="text-h6">{{ item.title }}</h5>
+                    <h5 :class="item.titleStyle">{{ item.title }}</h5>
                     <div class="text-caption">{{ item.caption }}</div>
                   </v-col>
                   <v-col class="d-none d-md-block">
@@ -30,7 +30,7 @@
                         </div>
                       </v-col>
                       <v-col>
-                        <h5 class="text-h6">{{ item.title }}</h5>
+                        <h5 :class="item.titleStyle">{{ item.title }}</h5>
                         <div class="text-caption">{{ item.caption }}</div>
                       </v-col>
                     </v-row>
@@ -53,40 +53,46 @@ export default {
         datetime: '2022-10-01',
         title: 'Registration Open',
         caption: 'Google form and competition page on codalab will be public.',
+        titleStyle: 'text-h6 text-decoration-line-through',
         color: 'op-brown darken-1',
       },
       {
         datetime: '2022-10-15',
         title: 'Launch',
+        titleStyle: 'text-h6 text-decoration-line-through',
         caption: 'You can submit your estimates to the competition site.',
-        color: 'op-brown',
+        color: 'op-brown  darken-1',
       },
       {
         datetime: '2023-01-10',
         title: 'Entry and Team Merger Deadline',
+        titleStyle: 'text-h6 text-decoration-line-through',
         caption:
           'If you want to join this competition or change team members, you must register until this date.',
-        color: 'op-brown lighten-1',
+        color: 'op-brown  darken-1',
       },
       {
         datetime: '2023-01-15',
         title: 'Final Submission Deadline',
+        titleStyle: 'text-h6 text-decoration-line-through',
         caption: 'You must submit your best results until the end of this day.',
-        color: 'op-brown lighten-1',
+        color: 'op-brown  darken-1',
       },
       {
         datetime: '2023-01-31',
         title: 'Report Submission Deadline',
+        titleStyle: 'text-h6 text-decoration-line-through',
         caption:
           'Top 3 winners must submit a report of your solution to get the prize! Deadlines are subject to change.',
-        color: 'op-brown lighten-1',
+        color: 'op-brown darken-1',
       },
       {
-        datetime: '2023-03-TBA',
+        datetime: '2023-03-13',
         title: 'Workshop Day @Percom2023',
+        titleStyle: 'text-h6',
         caption:
           'Award Ceremony will be held. Top 3 winners are requested to participate offline.',
-        color: 'op-brown lighten-1',
+        color: 'op-brown',
       },
     ],
   }),

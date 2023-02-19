@@ -65,6 +65,21 @@ export default {
         role: 'Web Developper',
         imgSrc: null,
       },
+      {
+        name: 'Pan Guangyang',
+        role: 'Web Developper',
+        imgSrc: null,
+      },
+      {
+        name: 'Kohei Hirata',
+        role: 'Web Developper',
+        imgSrc: null,
+      },
+      {
+        name: 'Yagi ',
+        role: 'Web Developper',
+        imgSrc: null,
+      },
     ],
     adviser: [
       {

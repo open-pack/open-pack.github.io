@@ -5,7 +5,7 @@
         <v-row>
           <v-col cols="12" class="white--text">
             <h2 class="text-h3 text-center font-weight-bold my-3">
-              OpenPack Challenge 2022
+              OpenPack Challenge 2022 (Closed)
             </h2>
             <p>
               We are hosting an activity recognition competition using the
@@ -32,11 +32,15 @@
             <v-card class="op-brown lighten-1" width="100%" elevation="0">
               <v-card-text>
                 <div>Start</div>
-                <p class="text-h5 text--primary font-weight-bold">
+                <p
+                  class="text-h5 text--primary font-weight-bold text-decoration-line-through"
+                >
                   2022-10-15 (AOE)
                 </p>
                 <div>End</div>
-                <p class="text-h5 text--primary font-weight-bold">
+                <p
+                  class="text-h5 text--primary font-weight-bold text-decoration-line-through"
+                >
                   2023-01-15 (AOE)
                 </p>
               </v-card-text>
