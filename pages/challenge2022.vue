@@ -4,6 +4,7 @@
     <ChallengeTaskSection />
     <ChallengePrizeSection />
     <ChallengeRuleSection />
+    <ChallengeResultSection />
     <ChallengeRegistrationSection />
     <ChallengeTimelineSection />
     <SnsGoogleGroup />

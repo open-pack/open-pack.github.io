@@ -7,7 +7,10 @@
             id="challenge-registration-section"
             class="text-h5 font-weight-bold my-3"
           >
-            Registration and Submission
+            <span class="text-decoration-line-through"
+              >Registration and Submission</span
+            >
+            (Closed)
           </h2>
         </v-col>
         <v-col cols="12">
@@ -62,6 +65,7 @@
             target="_blank"
             class="mx-2"
             color="op-brown darken-1 white--text text-button"
+            disabled
             @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
@@ -73,6 +77,7 @@
             :href="urlGoogleForm"
             target="_blank"
             color="op-brown darken-1 white--text text-button"
+            disabled
             @click="openGoogleFormPage"
           >
             <span class="text-decoration-none text-capitalize">
@@ -88,6 +93,7 @@
             class="my-2"
             block
             color="op-brown darken-1 white--text text-button"
+            disabled
             @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
@@ -100,6 +106,7 @@
             target="_blank"
             block
             color="op-brown darken-1 white--text text-button"
+            disabled
             @click="openGoogleFormPage"
           >
             <span class="text-decoration-none text-capitalize">

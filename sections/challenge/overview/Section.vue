@@ -30,14 +30,31 @@
           </p>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols="12">
+          <v-alert
+            dense
+            outlined
+            type="error"
+            elevation="0"
+            class="font-weight-bold"
+          >
+            This challenge has been over. Thank you for your participation!
+          </v-alert>
+        </v-col>
+      </v-row>
       <v-row class="d-flex flex-child align-stretch">
         <v-col cols="12" md="4" class="d-flex">
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Start</div>
-              <p class="text-h5 font-weight-bold">2022-10-15 (AOE)</p>
+              <p class="text-h5 font-weight-bold text-decoration-line-through">
+                2022-10-15 (AOE)
+              </p>
               <div>End</div>
-              <p class="text-h5 font-weight-bold">2023-01-15 (AOE)</p>
+              <p class="text-h5 font-weight-bold text-decoration-line-through">
+                2023-01-15 (AOE)
+              </p>
             </v-card-text>
           </v-card>
         </v-col>
