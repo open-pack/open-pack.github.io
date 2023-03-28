@@ -72,11 +72,29 @@
           </v-col>
         </v-row>
         <v-row>
+          <v-col cols="12">
+            <v-img
+              :src="photo.awardsCeremony"
+              width="100%"
+              class="pa-3 align-start justify-center"
+            >
+              <v-sheet
+                rounded
+                elevation="0"
+                class="py-1 px-2 text-center d-inline-block"
+                color="rgba(255, 255, 255, 0.7)"
+              >
+                Picture with Top-5 Winners @Percom2023 WS BiRD
+              </v-sheet>
+            </v-img>
+          </v-col>
+        </v-row>
+        <v-row>
           <v-col cols="12" class="d-flex justify-center">
             <nuxt-link to="/challenge2022" class="text-decoration-none">
               <v-btn class="text-h5 text-capitalize ma-3" text color="white">
                 <v-icon>mdi-arrow-right-thick</v-icon>
-                Check Competition Site !
+                Check Competition Details !
               </v-btn>
             </nuxt-link>
           </v-col>
@@ -90,6 +108,9 @@ export default {
   name: 'LpChallengeSection',
   data: () => ({
     imgChallengeLogo: require('@/assets/img/brand/OpenPackCHALLENG-white.png'),
+    photo: {
+      awardsCeremony: require('@/assets/img/snapshot/2023-03-13-Percom2023BiRD-AwardsCeremony.jpg'),
+    },
   }),
 }
 </script>

@@ -53,7 +53,7 @@
                 target="_blank"
                 class="text-decoration-none"
               >
-                <v-btn color="op-brown" text small disabled>
+                <v-btn color="op-brown" text small>
                   {{ link.title }}
                   <v-icon class="mx-1">mdi-open-in-new</v-icon>
                 </v-btn>
@@ -83,6 +83,22 @@
           </v-simple-table>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols="12">
+          <h3>Awards Ceremony @Percom2023 WS BiRD</h3>
+          <p>
+            The awards ceremony was held on March 13, 2023 at Percom2023 WS
+            BiRD. The top 5 winners gathered to discuss their solutions in a
+            poster session. Congratulations again!
+          </p>
+          <v-card class="mx-auto">
+            <v-img :src="photo.awardsCeremony" width="100%"> </v-img>
+            <v-card-subtitle class="py-1 text-center">
+              Picture with Top-5 Winners @Percom2023 WS BiRD
+            </v-card-subtitle>
+          </v-card>
+        </v-col>
+      </v-row>
     </v-container>
   </section>
 </template>
@@ -97,8 +113,14 @@ export default {
         score: 0.9633,
         member: 'Tomoki Uchiyama. (Tsukuba Univ., JA)',
         links: [
-          { title: 'Technical Report', url: null },
-          { title: 'Solution', url: null },
+          {
+            title: 'Poster',
+            url: 'data/2023-03-13-openpack-challenge-poster/1st-tomoon.pdf',
+          },
+          {
+            title: 'Solution (GitHub)',
+            url: 'https://github.com/uchiyama33/OpenPack-Challenge-1st',
+          },
         ],
       },
       {
@@ -108,8 +130,10 @@ export default {
         member:
           'Yuto Namba(a,b), Yuichi Nakatani(a), Kenta Ishihara(a), Sachio Iwasaki(a), Kosuke Moriwaki(a), Xian-Hua Han(b), Tetsuo Inoshita(a). (a=NEC Corporation, JP; b=Yamaguchi Univ., JP)',
         links: [
-          { title: 'Technical Report', url: null },
-          { title: 'Solution', url: null },
+          {
+            title: 'Poster',
+            url: 'data/2023-03-13-openpack-challenge-poster/2nd-vbu211.pdf',
+          },
         ],
       },
       {
@@ -119,8 +143,14 @@ export default {
         member:
           'Shurong Chai(a), Jiaqing Liu(a), Rahul Kumar Jain(a), Yinhao Li(a), Tomoko Tateyama(b), Yen-Wei Chen. (a=Ritsumeikan Univ, JP; b=Fujita Health Univ., JP)',
         links: [
-          { title: 'Technical Report', url: null },
-          { title: 'Solution', url: null },
+          {
+            title: 'Poster',
+            url: 'data/2023-03-13-openpack-challenge-poster/3rd-ritsumei.pdf',
+          },
+          {
+            title: 'Solution (GitHub)',
+            url: 'https://github.com/11yxk/openpack_challenge',
+          },
         ],
       },
       {
@@ -129,8 +159,10 @@ export default {
         score: 0.9171,
         member: 'Yusuke Matsubayashi. (Osaka Univ., JP)',
         links: [
-          { title: 'Technical Report', url: null },
-          { title: 'Solution', url: null },
+          {
+            title: 'Poster',
+            url: 'data/2023-03-13-openpack-challenge-poster/4th-malton.pdf',
+          },
         ],
       },
       {
@@ -139,8 +171,10 @@ export default {
         score: 0.9112,
         member: 'Shubham Maroti Wagh. (Veridium in Oxford, UK)',
         links: [
-          { title: 'Technical Report', url: null },
-          { title: 'Solution', url: null },
+          {
+            title: 'Poster',
+            url: 'data/2023-03-13-openpack-challenge-poster/5th-shubham.pdf',
+          },
         ],
       },
     ],
@@ -211,6 +245,9 @@ export default {
     ],
     googleSheetUrl:
       'https://docs.google.com/spreadsheets/d/1AwZqu9ccUQ81zfICLo8qtU_Bg_KbOv1P3jhWpIb1Fis?usp=sharing',
+    photo: {
+      awardsCeremony: require('@/assets/img/snapshot/2023-03-13-Percom2023BiRD-AwardsCeremony.jpg'),
+    },
   }),
 }
 </script>
