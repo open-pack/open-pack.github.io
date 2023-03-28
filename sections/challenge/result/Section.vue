@@ -183,7 +183,7 @@ export default {
         rank: 1,
         team: 'tomoon',
         score: 0.9633,
-        member: 'Tomoki UCHIYAMA (Tsukuba Univ., JA)',
+        member: 'Tomoki UCHIYAMA (Univ. Tsukuba, JA)',
       },
       {
         rank: 2,
