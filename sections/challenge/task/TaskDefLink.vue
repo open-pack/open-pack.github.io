@@ -40,6 +40,12 @@
             </v-btn>
           </a>
         </v-col>
+        <v-col cols="12">
+          <v-alert dense outlined type="info">
+            For more information on the dataset used in this competition, see
+            <nuxt-link to="/" class="font-weight-bold">this page</nuxt-link>.
+          </v-alert>
+        </v-col>
       </v-row>
     </v-container>
   </section>
