@@ -36,21 +36,33 @@
                 operations and actions are 20,129 and 52,529 respectively.
               </p>
               <div class="d-flex justify-center justify-md-end">
-                <nuxt-link
-                  to="/gallery/annotation"
+                <a
+                  href="https://github.com/open-pack/openpack-dataset/blob/main/docs/annotation/activity-class.md"
                   class="text-decoration-none"
                 >
                   <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
                     Activity Classes
                   </v-btn>
-                </nuxt-link>
-                <nuxt-link to="/gallery/subject" class="text-decoration-none">
+                </a>
+                <a
+                  href="https://github.com/open-pack/openpack-dataset/blob/main/docs/data-collection/subjects.md"
+                  class="text-decoration-none"
+                >
                   <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
-                    Sessions
+                    Subjects
                   </v-btn>
-                </nuxt-link>
+                </a>
+                <a
+                  href="https://github.com/open-pack/openpack-dataset/blob/main/docs/data-collection/sessions.md"
+                  class="text-decoration-none"
+                >
+                  <v-btn class="ma-2" outlined small color="op-brown darken-1">
+                    <v-icon>mdi-arrow-right-thick</v-icon>
+                    Scenario & Sessions
+                  </v-btn>
+                </a>
               </div>
             </v-col>
           </v-sheet>
@@ -91,12 +103,15 @@
                 but have strong relation with specific activity classes.
               </p>
               <div class="d-flex justify-center justify-md-end">
-                <nuxt-link to="/gallery/modality" class="text-decoration-none">
+                <a
+                  href="https://github.com/open-pack/openpack-dataset/tree/main/docs/data-stream"
+                  class="text-decoration-none"
+                >
                   <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
                     Sensor List
                   </v-btn>
-                </nuxt-link>
+                </a>
               </div>
             </v-col>
           </v-sheet>
@@ -134,28 +149,18 @@
                 which can be used for developing normal detection technologies.
               </p>
               <div class="d-flex justify-center justify-md-end">
-                <nuxt-link to="/" class="text-decoration-none">
-                  <v-btn
-                    class="ma-2"
-                    outlined
-                    small
-                    disabled
-                    color="op-brown darken-1"
-                  >
+                <a
+                  href="https://github.com/open-pack/openpack-dataset/blob/main/docs/data-stream/metadata.md"
+                  class="text-decoration-none"
+                >
+                  <v-btn class="ma-2" outlined small color="op-brown darken-1">
                     <v-icon>mdi-arrow-right-thick</v-icon>
                     Meta Data List
                   </v-btn>
-                </nuxt-link>
+                </a>
               </div>
             </v-col>
           </v-sheet>
-        </v-col>
-        <v-col cols="12">
-          <v-alert dense outlined type="error">
-            The full dataset will be made available after the OpenPack
-            Challenge. Currently available data are smaller than the above
-            numbers.
-          </v-alert>
         </v-col>
       </v-row>
     </v-container>
