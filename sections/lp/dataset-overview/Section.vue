@@ -20,6 +20,7 @@
       </v-container>
       <LpDatasetOverviewFeaturesSec />
       <LpDatasetOverviewSampleSec />
+      <LpDatasetOverviewActivityListSec />
     </section>
   </section>
 </template>
