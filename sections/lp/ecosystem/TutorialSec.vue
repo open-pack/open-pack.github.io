@@ -1,61 +1,68 @@
 <template>
-  <section class="gnt-sec-4 my-3">
-    <v-row>
-      <v-col cols="12">
-        <h3>Notebooks (Colab / Jupyter Notebook)</h3>
-        <v-list two-line>
-          <v-list-item-group
-            v-model="selected"
-            active-class="op-brown--text"
-            multiple
-          >
-            <template v-for="(item, index) in items">
-              <v-list-item :key="index">
-                <v-list-item-content>
-                  <v-list-item-subtitle
-                    class="text-overline"
-                    v-text="item.level"
-                  ></v-list-item-subtitle>
+  <section class="gnt-sec-3 op-brown lighten-2">
+    <v-container>
+      <v-row>
+        <v-col cols="12" class="pb-0">
+          <h2>Tutorials</h2>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12">
+          <h3>Notebooks (Colab / Jupyter Notebook)</h3>
+          <v-list two-line>
+            <v-list-item-group
+              v-model="selected"
+              active-class="op-brown--text"
+              multiple
+            >
+              <template v-for="(item, index) in items">
+                <v-list-item :key="index">
+                  <v-list-item-content>
+                    <v-list-item-subtitle
+                      class="text-overline"
+                      v-text="item.level"
+                    ></v-list-item-subtitle>
 
-                  <v-list-item-title
-                    class="text-h6"
-                    v-text="item.title"
-                  ></v-list-item-title>
-                  <div>
-                    <p class="text--primary mb-0" v-text="item.body"></p>
-                  </div>
-                  <div class="d-flex justify-end">
-                    <a
-                      v-for="link in item.links"
-                      :key="link.url"
-                      :href="link.url"
-                      target="_blank"
-                      class="text-decoration-none"
-                    >
-                      <v-btn color="op-brown" text>
-                        {{ link.tool }}
-                        <v-icon class="mx-1">mdi-open-in-new</v-icon>
-                      </v-btn>
-                    </a>
-                  </div>
-                </v-list-item-content>
-              </v-list-item>
+                    <v-list-item-title
+                      class="text-h6"
+                      v-text="item.title"
+                    ></v-list-item-title>
+                    <div>
+                      <p class="text--primary mb-0" v-text="item.body"></p>
+                    </div>
+                    <div class="d-flex justify-end">
+                      <a
+                        v-for="link in item.links"
+                        :key="link.url"
+                        :href="link.url"
+                        target="_blank"
+                        class="text-decoration-none"
+                      >
+                        <v-btn color="op-brown" text>
+                          {{ link.tool }}
+                          <v-icon class="mx-1">mdi-open-in-new</v-icon>
+                        </v-btn>
+                      </a>
+                    </div>
+                  </v-list-item-content>
+                </v-list-item>
 
-              <v-divider
-                v-if="index < items.length - 1"
-                :key="index"
-              ></v-divider>
-            </template>
-          </v-list-item-group>
-        </v-list>
-      </v-col>
-      <v-col cols="12">
-        <v-alert dense outlined type="error">
-          Change runtime to enable GPU acceleration when you train models in
-          colab.
-        </v-alert>
-      </v-col>
-    </v-row>
+                <v-divider
+                  v-if="index < items.length - 1"
+                  :key="index"
+                ></v-divider>
+              </template>
+            </v-list-item-group>
+          </v-list>
+        </v-col>
+        <v-col cols="12">
+          <v-alert dense outlined type="error">
+            Change runtime to enable GPU acceleration when you train models in
+            colab.
+          </v-alert>
+        </v-col>
+      </v-row>
+    </v-container>
   </section>
 </template>
 <script scoped>
