@@ -83,11 +83,6 @@ export default {
         title: 'Challenge',
         to: '/challenge2022',
       },
-      {
-        icon: 'mdi-folder',
-        title: 'Gallery',
-        to: '/gallery',
-      },
     ],
   }),
 }

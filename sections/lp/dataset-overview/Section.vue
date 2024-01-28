@@ -16,16 +16,11 @@
             </p>
             <v-img :src="keyVisual"></v-img>
           </v-col>
-          <v-col cols="12">
-            <v-alert dense outlined type="error">
-              RGB images are not included in the dataset due to ethical issues.
-              The RGB image shown above is just an example.
-            </v-alert>
-          </v-col>
         </v-row>
       </v-container>
       <LpDatasetOverviewFeaturesSec />
       <LpDatasetOverviewSampleSec />
+      <LpDatasetOverviewActivityListSec />
     </section>
   </section>
 </template>

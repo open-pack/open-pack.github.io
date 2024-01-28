@@ -1,5 +1,5 @@
 <template>
-  <section class="gnt-sec-3 op-brown lighten-2" :class="margin">
+  <section class="gnt-sec-3 op-brown lighten-2 py-6 mb-0">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -93,12 +93,6 @@
 <script scoped>
 export default {
   name: 'ChallengeRegistrationSection',
-  props: {
-    margin: {
-      type: String,
-      default: '',
-    },
-  },
   data: () => ({
     googleGroup: {
       url: 'https://groups.google.com/g/openpack',
