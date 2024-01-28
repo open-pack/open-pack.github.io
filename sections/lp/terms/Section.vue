@@ -100,10 +100,11 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            <h2>Cite</h2>
+            <h2>Citation</h2>
             <p>
-              If you use the OpenPack dataset or code please cite
-              <small>(Updated on Dec 24 2022)</small>:
+              When you use the OpenPack dataset or code please cite the
+              following paper.
+              <small>(Updated on Jan 28 2024)</small>:
             </p>
             <v-sheet
               color="op-brown lighten-1"
@@ -115,11 +116,9 @@
                 <p class="font-italic mb-0">
                   Naoya Yoshimura, Jaime Morales, Takuya Maekawa, Takahiro Hara,
                   “OpenPack: A Large-scale Dataset for Recognizing Packaging
-                  Works in IoT-enabled Logistic Environments”.
-                  CoRRabs/2212.11152 (2022).
-                  <a href="https://arxiv.org/abs/2212.11152" target="_blank"
-                    >https://arxiv.org/abs/2212.11152</a
-                  >
+                  Works in IoT-enabled Logistic Environments”. Proceedings of
+                  IEEE International Conference on Pervasive Computing and
+                  Communications (2024).
                 </p>
               </v-col>
             </v-sheet>
