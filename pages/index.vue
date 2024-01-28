@@ -4,20 +4,10 @@
     <LpDatasetOverviewSection />
     <LpDownloadSection />
     <LpTermsSection />
+    <LpEcosystemSection />
     <LpPaperSection />
-    <section class="gnt-sec-3">
-      <v-container>
-        <v-row>
-          <v-col cols="12">
-            <h2>Getting Started</h2>
-          </v-col>
-          <ChallengeTutorialNotebook />
-        </v-row>
-      </v-container>
-    </section>
-    <ChallengeLinkSection />
-    <LpSnsSection />
     <LpTeamSection />
+    <LpSnsSection />
   </v-container>
 </template>
 
