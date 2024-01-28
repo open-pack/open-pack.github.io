@@ -2,11 +2,8 @@
   <v-container fluid class="pa-0">
     <LpTopSection />
     <LpDatasetOverviewSection />
-    <LpChallengeSection />
-    <SnsGoogleGroup margin="mt-0" />
     <LpTermsSection />
     <LpPaperSection />
-    <ChallengeLinkSection />
     <section class="gnt-sec-3">
       <v-container>
         <v-row>
@@ -17,6 +14,8 @@
         </v-row>
       </v-container>
     </section>
+    <ChallengeLinkSection />
+    <LpSnsSection />
     <LpTeamSection />
   </v-container>
 </template>
