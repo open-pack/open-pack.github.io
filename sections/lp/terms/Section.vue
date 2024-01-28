@@ -61,7 +61,7 @@
               data. OpenPack Dataset (+RGB) is licenced under
               <a
                 rel="license"
-                href="OpenPack Dataset (+RGB) License"
+                href="https://github.com/open-pack/openpack-dataset/blob/main/licenses/OPENPACK_DATASET_RGB_LICENSE.md"
                 target="_blank"
                 >“OpenPack Dataset (+RGB) License”</a
               >
@@ -71,7 +71,7 @@
               See the
               <a
                 rel="license"
-                href="OpenPack Dataset (+RGB) License"
+                href="https://github.com/open-pack/openpack-dataset/blob/main/licenses/OPENPACK_DATASET_RGB_LICENSE.md"
                 target="_blank"
                 >OPENPACK_DATASET_RGB_LICENSE.md (@GitHub:openpack-dataset)</a
               >
