@@ -1,5 +1,5 @@
 <template>
-  <section class="gnt-sec-3">
+  <section id="dataset-docs-toc" class="gnt-sec-3">
     <v-container>
       <v-row>
         <v-col cols="12">
