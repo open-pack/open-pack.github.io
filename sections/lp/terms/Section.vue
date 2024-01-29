@@ -8,12 +8,12 @@
             <p>
               The OpenPack dataset consists of RGB data
               <i>(OpenPack Dataset (+RGB))</i> and other data
-              <i>(OpenPack Dataset)</i>, and the non-RGB data will continue to
-              be provided under "CC BY-NC-SA 4.0". On the other hand, the
-              dataset including RGB data will be provided under a different
-              license for privacy and ethical considerations, as described
-              below. Please check the license of the dataset you use before
-              using it.
+              <i>(OpenPack Dataset)</i>. The dataset without RGB data will
+              continue to be provided under "CC BY-NC-SA 4.0". On the other
+              hand, the dataset including RGB data will be provided under a
+              different license for privacy and ethical considerations, as
+              described below. Please check the license of the dataset you use
+              before using it.
             </p>
           </v-col>
           <v-col cols="12" class="pb-1">
