@@ -1,5 +1,5 @@
 <template>
-  <section class="gnt-sec-3 op-brown lighten-2">
+  <section id="tutorials" class="gnt-sec-3 op-brown lighten-2">
     <v-container>
       <v-row>
         <v-col cols="12" class="pb-0">
