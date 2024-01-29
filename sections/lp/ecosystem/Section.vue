@@ -1,6 +1,7 @@
 <template>
   <section class="gnt-sec-2">
     <LpEcosystemTutorialSec />
+    <LpEcosystemDocsIndexSec />
     <LpEcosystemLinkSec />
   </section>
 </template>

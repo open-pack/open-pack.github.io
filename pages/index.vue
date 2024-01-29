@@ -8,6 +8,7 @@
     <LpPaperSection />
     <LpTeamSection />
     <LpSnsSection />
+    <OrganismsTopScrollBtn />
   </v-container>
 </template>
 

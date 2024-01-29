@@ -1,5 +1,5 @@
 <template>
-  <section class="gnt-sec-3 op-brown lighten-2 py-6">
+  <section id="download" class="gnt-sec-3 op-brown lighten-2 py-6">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -73,7 +73,7 @@
               >DOWNLOAD.md (@GitHub:openpack-dataset)</a
             >.
           </p>
-          <h4 class="op-brown--text">TL;DR</h4>
+          <h4 class="op-brown--text">Download Commands</h4>
           <p>
             Below is a command to download data from
             <a href="https://zenodo.org/records/8145223" target="_blank"
