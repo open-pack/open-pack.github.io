@@ -73,7 +73,7 @@
               >DOWNLOAD.md (@GitHub:openpack-dataset)</a
             >.
           </p>
-          <h4 class="op-brown--text">TL;DR</h4>
+          <h4 class="op-brown--text">Download Commands</h4>
           <p>
             Below is a command to download data from
             <a href="https://zenodo.org/records/8145223" target="_blank"
