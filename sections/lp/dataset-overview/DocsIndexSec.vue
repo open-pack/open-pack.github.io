@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="12">
           <h2 id="challenge-link-section">Documentations (Index)</h2>
-          <p class="mb-0">Here is a index of the dataset documentation.</p>
+          <p class="mb-0">Here are links to the dataset documentations.</p>
         </v-col>
       </v-row>
       <v-row>
