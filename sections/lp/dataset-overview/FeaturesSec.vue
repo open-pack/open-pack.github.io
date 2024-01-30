@@ -35,7 +35,7 @@
                 the professional annotators. The total number of annotated work
                 operations and actions are 20,129 and 52,529 respectively.
               </p>
-              <div class="d-flex justify-center justify-md-end">
+              <div class="d-flex justify-center justify-md-end flex-wrap">
                 <a
                   href="https://github.com/open-pack/openpack-dataset/blob/main/docs/annotation/activity-class.md"
                   class="text-decoration-none"
