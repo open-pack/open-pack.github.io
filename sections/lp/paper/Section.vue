@@ -41,6 +41,21 @@ export default {
           },
         ],
       },
+      {
+        publicationType: 'Conference',
+        title: 'Recent Trends in Sensor-based Activity Recognition',
+        booktitle:
+          'Proceedings of the IEEE International Conference on Mobile Data Management (MDM)',
+        authors: 'T. Maekawa, Q. Xia, R. Otsuka, N. Yoshimura, K. Tanigaki',
+        description:
+          'This seminar introduces recent trends in sensor-based activity recognition technology. Technology to recognize human activities using sensors has been a hot topic in the field of mobile and ubiquitous computing for many years. Recent developments in deep learning and sensor technology have expanded the application of activity recognition to various domains such as industrial and natural science fields. However, because activity recognition in the new domains suffers from various real problems such as the lack of sufficient training data and complexity of target activities, new solutions have been proposed for the practical problems in applying activity recognition to real-world applications in the new domains. In this seminar, we introduce recent topics in activity recognition from the viewpoints of (1) recent trends in state-of-the-art machine learning methods for practical activity recognition, (2) recently focused domains for human activity recognition such as industrial and medical domains and their public datasets, and (3) applications of activity recognition to the natural science field, especially in animal behavior understanding.',
+        links: [
+          {
+            url: 'https://ieeexplore.ieee.org/abstract/document/10214902',
+            linkText: 'IEEE Explore',
+          },
+        ],
+      },
     ],
   }),
 }
