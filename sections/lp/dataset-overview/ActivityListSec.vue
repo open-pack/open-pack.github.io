@@ -24,6 +24,15 @@
             ></v-img>
           </template>
         </v-data-table>
+
+        <v-alert color="op-brown" type="info" dense outlined>
+          Definitions of action/outlier labels are available at
+          <a
+            href="https://github.com/open-pack/openpack-dataset/blob/main/docs/annotation/activity-class.md"
+            class="font-weight-bold"
+            >Activity Class Definition @GitHub</a
+          >
+        </v-alert>
       </v-col>
     </v-row>
   </v-container>
