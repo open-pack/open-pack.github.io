@@ -67,7 +67,7 @@ export default {
         subsections: [
           {
             title: 'Wearable Sensors',
-            url: 'https://github.com/open-pack/openpack-dataset/blob/main/docsdata-stream/wearables.md',
+            url: 'https://github.com/open-pack/openpack-dataset/blob/main/docs/data-stream/wearables.md',
           },
           {
             title: 'Vision',

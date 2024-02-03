@@ -21,14 +21,14 @@
           </p>
         </v-col>
         <v-col cols="12">
-          <h3 class="font-weight-bold">Sample Dataset</h3>
+          <h3 class="font-weight-bold">Sample Data</h3>
           <p>
             You can see samples of CSVs and images without downloading them.
-            Sample dataset is available on
+            Sample data (U0209 - Session 5) is available on
             <a
               href="https://github.com/open-pack/openpack-dataset/tree/main/data/openpack"
               target="_blank"
-              >data/openpack(@GitHub:openpack-dataset)</a
+              >GitHub (openpack-dataset/data/openpack)</a
             >.
           </p>
         </v-col>

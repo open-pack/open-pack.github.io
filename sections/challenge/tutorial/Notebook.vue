@@ -84,11 +84,11 @@ export default {
         links: [
           {
             tool: 'Colab',
-            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File.ipynb',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/notebooks/U-Net_Train-Model-and-Make-Submission-File.ipynb',
           },
           {
             tool: 'Colab (日本語)',
-            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Train-Model-and-Make-Submission-File__JA.ipynb',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/notebooks/U-Net_Train-Model-and-Make-Submission-File__JA.ipynb',
           },
         ],
       },
@@ -99,7 +99,7 @@ export default {
         links: [
           {
             tool: 'Colab',
-            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/unet/notebooks/U-Net_Change-Input-Data.ipynb',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/notebooks/U-Net_Change-Input-Data.ipynb',
           },
         ],
       },
@@ -111,11 +111,11 @@ export default {
         links: [
           {
             tool: 'Colab',
-            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/deep-conv-lstm/notebooks/Tutorial_Basics_of_Modeling.ipynb',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/notebooks/Tutorial_Basics_of_Modeling.ipynb',
           },
           {
             tool: 'Colab (日本語)',
-            url: 'https://colab.research.google.com/drive/1DjkTu3Sq-8jH-0bqcApyR9qxUwNBn9G6?usp=sharing',
+            url: 'https://colab.research.google.com/github/open-pack/openpack-torch/blob/main/examples/notebooks/Tutorial_Basics_of_Modeling__JA.ipynb',
           },
         ],
       },
