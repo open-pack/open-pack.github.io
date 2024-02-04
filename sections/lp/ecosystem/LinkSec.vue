@@ -59,14 +59,8 @@ export default {
       {
         contentType: 'YouTube',
         title: 'OpenPack Dataset Channel',
-        description: 'Sample Videos',
+        description: 'Sample Videos and a Tutorial Recording (Japanese)',
         url: 'https://www.youtube.com/channel/UC-AzuKxoJcyOtFi7B3CS4rA',
-      },
-      {
-        contentType: 'Codalab: System for Competition',
-        title: 'OpenPack Challenge 2022',
-        description: 'Leaderboeard for OpenPack Challenge.',
-        url: 'https://codalab.lisn.upsaclay.fr/competitions/7830#results',
       },
     ],
   }),
