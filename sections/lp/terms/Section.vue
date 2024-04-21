@@ -85,7 +85,7 @@
             <p>
               When you use the OpenPack dataset or code please cite the
               following paper.
-              <small>(Updated on Jan 28 2024)</small>:
+              <small>(Updated on April 21 2024)</small>:
             </p>
             <v-sheet
               color="op-brown lighten-1"
@@ -99,7 +99,7 @@
                   “OpenPack: A Large-scale Dataset for Recognizing Packaging
                   Works in IoT-enabled Logistic Environments”. Proceedings of
                   IEEE International Conference on Pervasive Computing and
-                  Communications (2024).
+                  Communications (2024). (<a :href="paperLink">link</a>)
                 </p>
               </v-col>
             </v-sheet>
@@ -114,6 +114,7 @@ export default {
   name: 'LpChallengeSection',
   data: () => ({
     cardElevation: 0,
+    paperLink: 'https://ieeexplore.ieee.org/abstract/document/10494448',
   }),
 }
 </script>

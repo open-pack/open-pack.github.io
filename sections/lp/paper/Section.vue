@@ -27,19 +27,35 @@ export default {
   data: () => ({
     items: [
       {
-        publicationType: 'Preprint',
+        publicationType: 'Conference',
         title:
           'OpenPack: A Large-scale Dataset for Recognizing Packaging Works in IoT-enabled Logistic Environments',
-        booktitle: 'CoRRabs/2212.11152 (2022)',
+        booktitle:
+          'Proceedings of the IEEE International Conference on Pervasive Computing and Communications (PerCom2024)',
         authors: 'N. Yoshimura, J. Morales, T. Maekawa, T. Hara',
         description:
-          'In this study, we introduce a new large-scale dataset for packaging work recognition called OpenPack. OpenPack contains 53.8 hours of multimodal sensor data, including keypoints, depth images, acceleration data, and readings from IoT-enabled devices (e.g., handheld barcode scanners used in work procedures), collected from 16 distinct subjects with different levels of packaging work experience.',
+          'Unlike human daily activities, existing publicly available sensor datasets for work activity recognition in industrial domains are limited by difficulties in collecting realistic data as close collaboration with industrial sites is required. This also limits research on and development of methods for industrial applications. To address these challenges and contribute to research on machine recognition of work activities in industrial domains, in this study, we introduce a new large-scale dataset for packaging work recognition called OpenPack. OpenPack contains 53.8 hours of multimodal sensor data, including acceleration data, keypoints, depth images, and readings from IoT-enabled devices (e.g., handheld barcode scanners), collected from 16 distinct subjects with different levels of packaging work experience. We apply state-of-the-art human activity recognition techniques to the dataset and provide future directions of complex work activity recognition studies in the pervasive computing community based on the results. We believe that OpenPack will contribute to the sensor-based action/activity recognition community by providing challenging tasks. The OpenPack dataset is available at https://open-pack.github.io.',
         links: [
           {
+            url: 'https://ieeexplore.ieee.org/abstract/document/10494448',
+            linkText: 'IEEE',
+          },
+          {
             url: 'https://arxiv.org/abs/2212.11152',
-            linkText: 'arXive.org',
+            linkText: 'arXiv',
           },
         ],
+      },
+      {
+        publicationType: 'Conference',
+        title:
+          'Preliminary investigation of SSL for Complex Work Activity Recognition in Industrial Domain via MoIL',
+        booktitle:
+          'Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops 2024)',
+        authors:
+          'Q. Xia, T. Maekawa, J. Morales, T. Hara, H. Oshima, M. Fukuda, Y. Namioka',
+        description: '(note: Best WIP Award)',
+        links: [],
       },
       {
         publicationType: 'Conference',
