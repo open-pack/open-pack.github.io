@@ -35,6 +35,7 @@
       <LpDatasetOverviewSampleSec />
       <LpDatasetOverviewDocsIndexSec />
       <LpDatasetOverviewActivityListSec />
+      <LpDatasetOverviewDataCollectionSec />
     </section>
   </section>
 </template>
