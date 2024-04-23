@@ -54,8 +54,14 @@ export default {
           'Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops 2024)',
         authors:
           'Q. Xia, T. Maekawa, J. Morales, T. Hara, H. Oshima, M. Fukuda, Y. Namioka',
-        description: '(note: Best WIP Award)',
-        links: [],
+        description:
+          'In this study, we investigate a new self-supervised learning (SSL) approach for complex work activity recognition using wearable sensors. Owing to the cost of labeled sensor data collection, SSL methods for human activity recognition (HAR) that effectively use unlabeled data for pretraining have attracted attention. However, applying prior SSL to complex work activities such as packaging works is challenging because the observed data vary considerably depending on situations such as the number of items to pack and the size of the items in the case of packaging works. In this study, we focus on sensor data corresponding to characteristic and necessary actions (sensor data motifs) in a specific activity such as a stretching packing tape action in an assembling a box activity, and try to train a neural network in self-supervised learning so that it identifies occurrences of the characteristic actions, i.e., Motif Identification Learning (MoIL). The feature extractor in the network is used in the downstream task, i.e., work activity recognition, enabling precise activity recognition containing characteristic actions with limited labeled training data. The MoIL approach was evaluated on real-world work activity data and it achieved state-of-the-art performance under limited training labels. (note: Best WIP Award @ PerCom2024)',
+        links: [
+          {
+            url: 'https://arxiv.org/abs/2404.13581',
+            linkText: 'arXiv',
+          },
+        ],
       },
       {
         publicationType: 'Conference',
